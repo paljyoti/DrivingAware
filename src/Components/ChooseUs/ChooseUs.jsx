@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const ChooseUs = () => {
   return (
-    <section className="why_choose section-padding">
+    <section className="why_choose section-padding" style={{backgroundColor:"#A7E6FF"}} >
       <div className="container">
         <div className="row">
           <div
@@ -98,3 +98,13 @@ const ChooseUs = () => {
 };
 
 export default ChooseUs;
+
+
+
+
+
+
+
+
+// #0cc0df ,#38b6ff ,#0097b2, #202020
+

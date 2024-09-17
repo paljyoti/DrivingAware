@@ -56,7 +56,7 @@ const accordionList = [
 ];
 const Faq = () => {
   return (
-    <div className="container">
+    <div className="container" >
       <div className="row justify-content-center">
         <div className="col-lg-12 col-sm-12 col-xs-12">
           <div className="accordion" id="accordionExample">

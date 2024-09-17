@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./header.css";
 import { Link } from "react-router-dom";
 import { TfiAngleDown, TfiMenu } from "react-icons/tfi";
-import logo from "../../../assets/img/logo.png";
+import logo from "../../../assets/img/safe_drive-removebg-preview.png";
 
 const menuList = [
   {
@@ -120,8 +120,7 @@ const Header = () => {
           <div className="">
             <div className="site-logo">
               <Link to="/">
-                {/* yaha logo lagega */}
-                {/* <img src={logo} alt="" /> */}
+                <img src={logo} alt="" />
               </Link>
             </div>
           </div>

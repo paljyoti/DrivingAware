@@ -5,14 +5,14 @@ import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
-    <section id="home" className="home_bg">
+    <section id="home" className="home_bg" style={{backgroundColor:"#A7E6FF"}}>
       <div className="container">
         <div className="row">
           <div className="offset-lg-1 col-lg-10 col-sm-12 col-xs-12 text-center">
-            <div className="about_me_content">
-              <h1 className="cd-headline clip">
-                Discover the best driving solutions for {" "}
-                <span className="cd-words-wrapper">
+            <div className="about_me_content text-black">
+              <h1 className="cd-headline clip  text-black">
+                Discover the best driving solutions for{" "}
+                <span className="cd-words-wrapper text-black">
                   <TypeAnimation
                     sequence={[
                       "Safety",
@@ -37,9 +37,10 @@ const Banner = () => {
                 </span>
               </h1>
               <p>
-                Ai Gen is an AI writing assistant that helps you create
-                high-quality content, in just a few seconds, at a fraction of
-                the cost!
+                This knowledge not only protects us and our passengers but also
+                ensures a safer driving environment for everyone. By staying
+                aware and informed, we can reduce accidents and make our roads
+                safer for all.
               </p>
             </div>
             <div className="home_btn">
