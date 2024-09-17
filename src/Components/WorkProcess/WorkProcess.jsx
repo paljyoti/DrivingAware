@@ -43,7 +43,7 @@ const WorkProcess = () => {
           subTitle={"Save your time and money, Very easy to create your"}
           subTitleSpan={"writing content that converts"}
         />
-        <div className="row">
+        <div className="row  text-black">
           {processList.map(({ id, title, desc, delay }) => {
             return (
               <div

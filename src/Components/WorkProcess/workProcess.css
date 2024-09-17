@@ -1,7 +1,9 @@
 .hiw_area {
   position: relative;
-  background: #151a32;
+  /* background: #151a32; */
+  background:#A7E6FF ;
   padding-bottom: 0px;
+  color: black;
 }
 .single_hiw {
   position: relative;
@@ -12,7 +14,8 @@
   }
 }
 .single_hiw_content {
-  background: #0e1123;
+  /* background: #0e1123; */
+  background: #0cc0df;
   overflow: hidden;
   padding: 30px;
   -webkit-box-shadow: 0px 0px 150px 0px rgba(78, 67, 250, 0.06);
@@ -28,9 +31,10 @@
   overflow: hidden;
 }
 .sh_title {
-  color: #232434;
+  /* color: #232434; */
   float: left;
-  background: #ffe06f;
+  /* background: #ffe06f; */
+  background: #38b6ff;
   border-radius: 0px;
   width: 80px;
   height: 80px;
