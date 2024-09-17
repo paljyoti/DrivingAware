@@ -22,7 +22,8 @@ h6 {
   letter-spacing: 0px;
   margin: 0px;
   font-family: "Mulish", sans-serif;
-  color: #fff;
+  /* color: #fff; */
+  color: black;
   font-weight: 400;
 }
 a {
@@ -33,7 +34,8 @@ a {
   transition: all 0.2s;
 }
 a:hover {
-  color: #fff;
+  /* color: #fff; */
+  color: black;
   text-decoration: none;
 }
 a:focus {
