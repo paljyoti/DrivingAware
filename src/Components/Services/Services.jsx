@@ -5,11 +5,44 @@ import Title from "../Shared/Title/Title";
 import { Link } from "react-router-dom";
 import { serviceList } from "../../Utlits/serviceList";
 import ServiceCard from "../Shared/ServiceCard/ServiceCard";
+import { TypeAnimation } from "react-type-animation";
 
 const Services = () => {
   return (
-    <section id="service" className="best-service section-padding" style={{backgroundColor:"#A7E6FF"}}>
+    <section id="service" className="best-service section-padding" style={{backgroundColor:"white"}}>
       <div className="container">
+
+  
+
+      {/* <span className="cd-words-wrapper text-black">
+                  <TypeAnimation
+                    sequence={[
+                      "Safety",
+                      1000,
+                      "Efficiency",
+                      1000,
+                      "Enjoyment",
+                      1000,
+                      "Drive smart",
+                      1000,
+                      "Drive safe",
+                      1000,
+                      "Drive with us.",
+                      1000,
+                    ]}
+                    wrapper="b"
+                    speed={10}
+                    deletionSpeed={0}
+                    // style={{ fontSize: "2em", display: "inline-block" }}
+                    repeat={Infinity}
+                  />
+                </span> */}
+
+
+
+
+
+
         <Title
           style={{ color: 'black' }} 
           mainTitle={"Application Procedure"}

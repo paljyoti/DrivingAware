@@ -9,22 +9,19 @@ const processList = [
   {
     id: "01",
     title: "Choose Usecase",
-    desc: `It is a long established fact that reader will be distracted
-        readable content of a page when.`,
+    desc: `After receiving a Notice of Intended Prosecution (NIP), drivers may be offered the course.`,
     delay: "100",
   },
   {
     id: "02",
     title: "Input context",
-    desc: `It is a long established fact that reader will be distracted
-        readable content of a page when.`,
+    desc: `Acceptance of the offer means avoiding penalty points and a fine.`,
     delay: "200",
   },
   {
     id: "03",
     title: "Magically Writes",
-    desc: `It is a long established fact that reader will be distracted
-        readable content of a page when.`,
+    desc: `The course must be completed within a specified time, typically 12 weeks from the offer.`,
     delay: "300",
   },
 ];

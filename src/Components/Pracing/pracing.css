@@ -1,6 +1,7 @@
 .price_area {
   /* background: #151a32; */
-  background:#A7E6FF ;
+  /* background:#A7E6FF ; */
+  background: white;
 }
 
 .pricing-content {
@@ -15,7 +16,8 @@
   }
 }
 .pricing_design .single-pricing {
-  background: #38b6ff;
+  /* background: #A6AA9C; */
+  background: #ffe06f ;
   padding: 60px 40px;
   border-radius: 30px;
   -webkit-box-shadow: 0px 0px 150px 0px rgba(78, 67, 250, 0.06);
@@ -26,18 +28,18 @@
 .pricing_design .single-pricing:before {
   content: "";
   /* background-color: #0e1123; */
-  background: #0cc0df;
+  background: #E6E7E5;
   width: 100%;
   height: 100%;
   border-radius: 18px 18px 190px 18px;
-  border: 1px solid #0cc0df;
+  border: 1px solid #E6E7E5;
   position: absolute;
   bottom: 0;
   right: 0;
   z-index: -1;
 }
 .price-head {
-  border-bottom: 1px solid #ffe06f;
+  border-bottom: 5px solid #ffe06f ;
   padding-bottom: 30px;
 }
 .price-head h2 {
@@ -56,7 +58,9 @@
   text-decoration: underline;
   font-weight: 700;
   margin-top: 5px;
-  color: white;
+  color: black;
+  /* color: #ffe06f; */
+  /* color: #ffe06f ; */
 }
 .single-pricing ul {
   list-style: none;
@@ -64,7 +68,8 @@
 }
 .single-pricing ul li {
   line-height: 44px;
-  color: white;
+  color: black;
+  
 }
 .single-pricing ul li span {
   /* background: rgba(255, 224, 111, 0.2); */
@@ -84,9 +89,9 @@
 }
 
 .price_btn {
-  background: black;
+  background:#ffe06f;
   padding: 10px 30px;
-  color: white;
+  color: black;
   display: inline-block;
   margin-top: 30px;
   font-weight: 600;
@@ -96,6 +101,6 @@
   transition: 0.3s;
 }
 .price_btn:hover {
-  background: #3f3eed;
+  background: black;
   color: #fff;
 }

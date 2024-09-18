@@ -1,7 +1,8 @@
 .test_area {
   padding-bottom: 50px;
-  margin-top: 150px;
-  background-color:#A7E6FF ;  
+  /* margin-top: 150px; */
+  /* background-color:#A7E6FF ;   */
+  background-color: white;
 }
 .single_rev {
   position: relative;

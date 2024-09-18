@@ -93,16 +93,31 @@ p.section-title-white {
 .section-title h2::after{
   background: black;
 }
+.section-title p{
+  color: black;
+  /* -webkit-text-stroke: 2px  #ffe06f ; */
+}
 .section-title p span {
   color: black;
+  
+
+  /* color: #ffe06f; */
 }
 .single_service {
-  color: white;
-  background: #0cc0df;
+  /* color: white; */
+  color: black;
+  /* background: #E1D7C6; */
+  /* background: #F1D3CE; */
+  background: #E6E7E5;
 }
 .single_service:hover {
-  background: #38b6ff;
+  /* background: #CDC2A5; */
+  /* background: #A6AA9C; */
+  background: #ffe06f;
 }
+/* .price-head h1{
+  color: #ffe06f;
+} */
 
 .section-title-two h2 {
   font-weight: 800;
@@ -111,7 +126,6 @@ p.section-title-white {
 }
 .section-title-two h2 span {
   /* color: #ffe06f; */
-
   color: black;
 }
 /*END SECTION TITLE DESIGN*/
@@ -150,6 +164,7 @@ p.section-title-white {
 /*START PRELOADER DESIGN*/
 .preloader {
   background: #0e1123;
+  /* background: white; */
   bottom: 0;
   left: 0;
   position: fixed;

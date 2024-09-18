@@ -82,7 +82,7 @@ const Footer = () => {
         <div className="row fc">
           <div className="col-lg-6 col-sm-6 col-xs-12">
             <div className="footer_copyright">
-              <p>&copy; 2023. All Rights Reserved.</p>
+              <p className="text-black">&copy; 2023. All Rights Reserved.</p>
             </div>
           </div>
           <div className="col-lg-6 col-sm-6 col-xs-12">

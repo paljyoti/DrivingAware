@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const ChooseUs = () => {
   return (
-    <section className="why_choose section-padding" style={{backgroundColor:"#A7E6FF"}} >
+    <section className="why_choose section-padding" style={{backgroundColor:"white"}} >
       <div className="container">
         <div className="row">
           <div
@@ -68,7 +68,7 @@ const ChooseUs = () => {
               </ul>
             </div>
             <div className="ss_btn">
-              <Link style={{background:"#38b6ff"}} to={"#pricing"}>Get started</Link>
+              <Link style={{background:"black" ,color:"white"}} to={"#pricing"}>Get started</Link>
             </div>
           </div>
           <div
