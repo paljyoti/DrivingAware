@@ -9,9 +9,9 @@ import ServiceCard from "../Shared/ServiceCard/ServiceCard";
 const Services = () => {
   return (
     <section id="service" className="best-service section-padding" style={{backgroundColor:"#A7E6FF"}}>
-      <div className="container  ">
+      <div className="container">
         <Title
-        style={"text-black"}
+          style={{ color: 'black' }} 
           mainTitle={"Application Procedure"}
           subTitle={"Speed awareness application procedure"}
           // subTitleSpan={"30+ use-cases"}

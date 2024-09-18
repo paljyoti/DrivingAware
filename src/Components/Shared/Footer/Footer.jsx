@@ -55,8 +55,8 @@ const Footer = () => {
             );
           })}
           <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="single_footer">
-              <h4>Service's</h4>
+            <div class="single_footer ">
+              <h4 className="">Service's</h4>
               <ul>
                 <li>
                   <a href="#">

@@ -61,7 +61,7 @@ const Faq = () => {
         <div className="col-lg-12 col-sm-12 col-xs-12">
           <div className="accordion" id="accordionExample">
             {accordionList.map(({ id, content, heading }, index) => {
-              return (
+              return ( 
                 <div key={id} className="accordion-item">
                   <h2 className="accordion-header" id={id}>
                     <button

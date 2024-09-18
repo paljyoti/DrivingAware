@@ -15,7 +15,7 @@ export const serviceList = [
     title: "COST",
     desc: `It is a long established fact that reader will be distracted
           readable content of a page when.`,
-    icon: <TfiPencilAlt />,
+    icon: <TfiPencilAlt className="text-black" />,
     delay: "100",
   },
   {
@@ -23,7 +23,7 @@ export const serviceList = [
     title: "DURATION",
     desc: `It is a long established fact that reader will be distracted
           readable content of a page when.`,
-    icon: <TfiPackage />,
+    icon: <TfiPackage className="text-black"  />,
     delay: "200",
   },
   {
@@ -31,15 +31,15 @@ export const serviceList = [
     title: "TIMING",
     desc: `It is a long established fact that reader will be distracted
           readable content of a page when.`,
-    icon: <TfiWorld />,
+    icon: <TfiWorld className="text-black"  />,
     delay: "300",
   },
   {
     id: 4,
-    title: "AGE",
+    title: "ELIGIBILITY",
     desc: `It is a long established fact that reader will be distracted
           readable content of a page when.`,
-    icon: <TfiLightBulb />,
+    icon: <TfiLightBulb className="text-black"  />,
     delay: "400",
   },
   {
@@ -47,7 +47,7 @@ export const serviceList = [
     title: "ASSESSMENT",
     desc: `It is a long established fact that reader will be distracted
           readable content of a page when.`,
-    icon: <TfiFlag />,
+    icon: <TfiFlag className="text-black"  />,
     delay: "500",
   },
   {
@@ -55,7 +55,7 @@ export const serviceList = [
     title: "RESULT",
     desc: `It is a long established fact that reader will be distracted
           readable content of a page when.`,
-    icon: <TfiWrite />,
+    icon: <TfiWrite className="text-black"  />,
     delay: "600",
   },
 ];

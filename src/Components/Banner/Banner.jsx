@@ -15,7 +15,7 @@ const Banner = () => {
     <section id="home" className="home_bg" style={{backgroundColor:"#A7E6FF"}}>
           
 
-     <video  autoplay muted loop  style={{width:"100vw", height:"100vh",objectFit:"cover"}}>
+     <video  autoplay  muted loop  style={{width:"100vw", height:"100vh", objectFit:"cover"}}>
       <source src={vedio} type="video/mp4" />
       Sorry, your browser doesn't support embedded videos.
        </video>
