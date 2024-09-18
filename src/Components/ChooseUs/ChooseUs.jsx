@@ -17,9 +17,9 @@ const ChooseUs = () => {
             data-aos-offset="0"
             data-aos-duration="1500"
           >
-            <div className="wc_content">
+            <div className="wc_content text-black">
               <h2>
-                Lorem ipsum <span>dolor sit</span>
+                Lorem ipsum <span className="text-black">dolor sit</span>
               </h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
@@ -68,7 +68,7 @@ const ChooseUs = () => {
               </ul>
             </div>
             <div className="ss_btn">
-              <Link to={"#pricing"}>Get started</Link>
+              <Link style={{background:"#38b6ff"}} to={"#pricing"}>Get started</Link>
             </div>
           </div>
           <div

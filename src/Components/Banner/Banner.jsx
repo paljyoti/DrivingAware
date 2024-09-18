@@ -1,13 +1,28 @@
 import React from "react";
 import "./banner.css";
+
+// import vedio from "../../assets/img/8996418-uhd_3840_2160_30fps.mp4";
+// import vedio from "../../assets/img/clideo_editor_8dc5ee77563240d2910832d363a783a0 (1).mp4"
+// import vedio from "../../assets/img/6011545_Car_Vehicle_1920x1080.mp4"
+import vedio from "../../assets/img/5124696_Car_Vehicle_1920x1080.mp4"
+
+
 import { TypeAnimation } from "react-type-animation";
 import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
     <section id="home" className="home_bg" style={{backgroundColor:"#A7E6FF"}}>
+          
+
+     <video  autoplay muted loop  style={{width:"100vw", height:"100vh",objectFit:"cover"}}>
+      <source src={vedio} type="video/mp4" />
+      Sorry, your browser doesn't support embedded videos.
+       </video>
+
+
       <div className="container">
-        <div className="row">
+        {/* <div className="row">
           <div className="offset-lg-1 col-lg-10 col-sm-12 col-xs-12 text-center">
             <div className="about_me_content text-black">
               <h1 className="cd-headline clip  text-black">
@@ -49,7 +64,7 @@ const Banner = () => {
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

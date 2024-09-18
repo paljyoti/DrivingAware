@@ -54,12 +54,13 @@
 }
 #main-menu ul li a {
   color: #fff;
+  /* color: black; */
   font-weight: 700;
   text-transform: capitalize;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  font-size: 18px;
+  font-size: 20px;
   padding: 24px 0 26px;
   display: block;
 }
@@ -80,11 +81,13 @@
 #navigation.navbar-fixed #main-menu ul li a:focus,
 #main-menu ul li a:hover,
 #main-menu ul li a:focus {
-  color: #ffe06f;
+  /* color: #ffe06f; */
+  color: #38b6ff;
 }
 #main-menu ul li > a:hover,
 #main-menu ul li > a:focus {
-  color: #ffe06f;
+  /* color: #ffe06f; */
+  color: #38b6ff;
 }
 #navigation #main-menu ul li a:hover,
 #navigation #main-menu ul li a:focus,
@@ -93,7 +96,8 @@
 }
 #navigation.navbar-fixed #main-menu ul li a:hover,
 #navigation.navbar-fixed #main-menu ul li a:focus {
-  color: #ffe06f;
+  /* color: #ffe06f; */
+  color: #38b6ff;
 }
 
 .slicknav_menu {

@@ -212,7 +212,7 @@ const Header = () => {
           </div>
           <div className=" d-flex d-lg-block align-items-center">
             <div className="call_to_action">
-              <Link to={"/pricing"}>Book an Appointment</Link>
+              <Link  style={{background:"#0cc0df"}}  to={"/pricing"}>Book an Appointment</Link>
             </div>
             <div
               className="d-lg-none d-block menu_icon"
