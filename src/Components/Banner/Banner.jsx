@@ -4,7 +4,7 @@ import image from "../../assets/img/Police-motorway-7-2048x1366 (1).jpg"
 
 // import vedio from "../../assets/img/8996418-uhd_3840_2160_30fps.mp4";
 // import vedio from "../../assets/img/clideo_editor_8dc5ee77563240d2910832d363a783a0 (1).mp4"
-import vedio from "../../assets/img/6011545_Car_Vehicle_1920x1080.mp4"
+// import vedio from "../../assets/img/6011545_Car_Vehicle_1920x1080.mp4"
 // import vedio from "../../assets/img/5124696_Car_Vehicle_1920x1080.mp4"
 
 
@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
-    <section id="home" className="home_bg" style={{backgroundColor:"#EAE4DD"}}>
+    <section id="home" className="home_bg">
           
       <img src={image} style={{width:"100vw", height:"100vh", objectFit:"cover"}}  alt="" />
 

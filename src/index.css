@@ -99,22 +99,8 @@ p.section-title-white {
 }
 .section-title p span {
   color: black;
-  
+}
 
-  /* color: #ffe06f; */
-}
-.single_service {
-  /* color: white; */
-  color: black;
-  /* background: #E1D7C6; */
-  /* background: #F1D3CE; */
-  background: #E6E7E5;
-}
-.single_service:hover {
-  /* background: #CDC2A5; */
-  /* background: #A6AA9C; */
-  background: #ffe06f;
-}
 /* .price-head h1{
   color: #ffe06f;
 } */

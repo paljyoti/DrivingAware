@@ -1,17 +1,17 @@
 import React, { useEffect } from "react";
 import "./services.css";
-
 import Title from "../Shared/Title/Title";
 import { Link } from "react-router-dom";
 import { serviceList } from "../../Utlits/serviceList";
 import ServiceCard from "../Shared/ServiceCard/ServiceCard";
 import { TypeAnimation } from "react-type-animation";
 
+
+
 const Services = () => {
   return (
     <section id="service" className="best-service section-padding" style={{backgroundColor:"white"}}>
       <div className="container">
-
         <Title
           style={{ color: 'black' }} 
           mainTitle={"Application Procedure"}
@@ -31,10 +31,17 @@ const Services = () => {
             <div className="ss_btn">
               <Link href="/usecase">View All Use Case</Link>
             </div>
-          </div> */}
+          </div> */}  
+
         </div>
       </div>
     </section>
+
+    
+
+
+
+
   );
 };
 

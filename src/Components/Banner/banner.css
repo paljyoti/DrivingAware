@@ -2,9 +2,33 @@
   /* height: 750px; */
   /* height: 100vh; */
   position: relative;
+ /* background: linear-gradient(45deg,#E6E7E5 ,#ffe06f); */
+ background: #ffe06f;
 
 
 }
+img {
+width: 100%;
+height: 100%;
+background-size: cover;
+/* border-radius: 50% 0 50% 0/100% 0 100% 0; */
+border-radius:50%  ;
+
+
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+border-right: 0;
+/* border-top-left-radius: 100 ; */
+
+border-left: 50%;
+
+
+}
+
+
+
+
+
 @media only screen and (max-width: 480px) {
   .home_bg {
     height: 850px;
