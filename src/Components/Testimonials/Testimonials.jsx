@@ -3,6 +3,7 @@ import "./testimonials.css";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import vedio from "../../assets/img/6011545_Car_Vehicle_1920x1080.mp4"
 
 import test_img from "../../assets/img/test_img.jpg";
 import img1 from "../../assets/img/testimonial/img-1.png";
@@ -101,9 +102,17 @@ const Testimonials = () => {
         </div>
         <div className="row">
           <div className="col-lg-5">
-            <div className="test_img">
+
+
+       <video controls autoplay  muted loop  style={{width:"40vw", height:"100vh"}}>
+      <source src={vedio} type="video/mp4" />
+      Sorry, your browser doesn't support embedded videos.
+       </video> 
+
+
+            {/* <div className="test_img">
               <img src={test_img} className="img-fluid" alt="" />
-            </div>
+            </div> */}
           </div>
           <div className="col-lg-7">
             <div className="testimonial-slider">
