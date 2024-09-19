@@ -3,10 +3,9 @@ import "./testimonials.css";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import vedio from "../../assets/img/6011545_Car_Vehicle_1920x1080.mp4"
 
-import test_img from "../../assets/img/test_img.jpg";
-import img1 from "../../assets/img/testimonial/img-1.png";
+import test_img from "../../assets/img/pexels-olly-785667.jpg";
+import img1 from "../../assets/img/pexels-olly-785667.jpg";
 import img2 from "../../assets/img/testimonial/img-2.jpg";
 import img3 from "../../assets/img/testimonial/img-3.jpg";
 import img4 from "../../assets/img/testimonial/img-4.png";
@@ -15,7 +14,7 @@ import Rating from "../Shared/Rating";
 const reviewList = [
   {
     id: 1,
-    name: "Mama Jaan",
+    name: "",
     post: "Marketer",
     image: img1,
     review: `Relieve the stress of juggling multiple projects by
@@ -27,7 +26,7 @@ const reviewList = [
   },
   {
     id: 2,
-    name: "Jyoti Pal",
+    name: "John ",
     post: "Author",
     image: img2,
     review: `Relieve the stress of juggling multiple projects by
@@ -50,8 +49,8 @@ const reviewList = [
     rating: 5,
   },
   {
-    id: 3,
-    name: "Paddu",
+    id: 4,
+    name: "",
     post: "CEO",
     image: img4,
     review: `Relieve the stress of juggling multiple projects by
@@ -100,19 +99,12 @@ const Testimonials = () => {
             <span>1300+ reviews on TrustPilot</span> & more
           </p>
         </div>
+
         <div className="row">
           <div className="col-lg-5">
-
-
-       <video controls autoplay  muted loop  style={{width:"40vw", height:"100vh"}}>
-      <source src={vedio} type="video/mp4" />
-      Sorry, your browser doesn't support embedded videos.
-       </video> 
-
-
-            {/* <div className="test_img">
+            <div className="test_img">
               <img src={test_img} className="img-fluid" alt="" />
-            </div> */}
+            </div>
           </div>
           <div className="col-lg-7">
             <div className="testimonial-slider">
