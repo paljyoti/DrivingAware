@@ -8,6 +8,7 @@
   -webkit-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
+
 }
 .navbar-fixed {
   z-index: 999;
@@ -28,15 +29,16 @@
 #navigation {
   padding: 5px 0;
   /* border-bottom: 1px solid #232434; */
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 #navigation.navbar-fixed {
   padding: 10px 0;
   /* background: #151a32; */
   /* background: #fff; */
-  background: transparent;
+  background: white;
   border-color: #151a32;
 }
+
 .header_right {
   display: block;
   -ms-flex-preferred-size: auto;
@@ -53,8 +55,8 @@
   position: relative;
 }
 #main-menu ul li a {
-  color: #fff;
-  /* color: black; */
+  /* color: #fff; */
+  color: black;
   font-weight: 700;
   text-transform: capitalize;
   -webkit-transition: 0.5s;
@@ -74,7 +76,8 @@
   }
 }
 #navigation.navbar-fixed #main-menu ul li a {
-  color: #fff;
+  /* color: #fff; */  
+  color:black;
   padding: 22px 0 22px;
 }
 #navigation.navbar-fixed #main-menu ul li a:hover,
@@ -82,12 +85,13 @@
 #main-menu ul li a:hover,
 #main-menu ul li a:focus {
   /* color: #ffe06f; */
-  color: #38b6ff;
+  /* color: #38b6ff; */
+  /* color: #ffe06f; */
 }
 #main-menu ul li > a:hover,
 #main-menu ul li > a:focus {
   /* color: #ffe06f; */
-  color: #38b6ff;
+  color: #ffe06f;
 }
 #navigation #main-menu ul li a:hover,
 #navigation #main-menu ul li a:focus,
@@ -96,8 +100,8 @@
 }
 #navigation.navbar-fixed #main-menu ul li a:hover,
 #navigation.navbar-fixed #main-menu ul li a:focus {
-  /* color: #ffe06f; */
-  color: #38b6ff;
+  color: #ffe06f;
+  /* color: #38b6ff; */
 }
 
 .slicknav_menu {

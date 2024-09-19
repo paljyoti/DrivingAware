@@ -9,7 +9,7 @@ const ServiceCard = ({delay, icon, desc, title}) => {
       data-aos-offset="0"
       data-aos-duration="1000"
     >
-      <div className="single_service" style={{width:"290px",height:"290px", marginLeft:"30px"}}>
+      <div className="single_service">
         <div className="ss_icon">
           <span>{icon}</span><hr />
         </div>

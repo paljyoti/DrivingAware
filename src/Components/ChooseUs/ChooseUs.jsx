@@ -7,7 +7,10 @@ import { Link } from "react-router-dom";
 
 const ChooseUs = () => {
   return (
-    <section className="why_choose section-padding" style={{backgroundColor:"white"}} >
+    <section
+      className="why_choose section-padding"
+      style={{ backgroundColor: "white" }}
+    >
       <div className="container">
         <div className="row">
           <div
@@ -19,14 +22,12 @@ const ChooseUs = () => {
           >
             <div className="wc_content text-black">
               <h2>
-                Lorem ipsum <span className="text-black">dolor sit</span>
+                why choose <span className="text-black">us</span>
               </h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur voluptatum laborum numquam blanditiis harum
-                quisquam eius sed odit fugiat iusto fuga praesentium optio,
-                eaque rerum! Provident similique accusantium nemo autem.
+                Empower your driving journey with are experties, design to raise
+                driving awareness and streamline driving test bookings.partners
+                with us now to creating driving success story.
               </p>
               <ul>
                 <li>
@@ -34,41 +35,46 @@ const ChooseUs = () => {
                     <TfiCheck />
                   </span>
                   <u>
-                    <strong>Lorem ipsum</strong>
+                    <strong>Training With </strong>
                   </u>{" "}
-                  dolor sit amet consectetur adipisicing elit.
+                  best resources
                 </li>
                 <li>
                   <span>
                     <TfiCheck />
                   </span>
                   <u>
-                    <strong>Lorem ipsum</strong>
+                    <strong>Free Access</strong>
                   </u>{" "}
-                  dolor sit amet consectetur adipisicing elit.
+                  to our traing data base
                 </li>
                 <li>
                   <span>
                     <TfiCheck />
                   </span>
                   <u>
-                    <strong>Lorem ipsum</strong>
+                    <strong>Access To</strong>
                   </u>{" "}
-                  dolor sit amet consectetur adipisicing elit.
+                  our network of trainers
                 </li>
                 <li>
                   <span>
                     <TfiCheck />
                   </span>
                   <u>
-                    <strong>Lorem ipsum</strong>
+                    <strong>Best Offers</strong>
                   </u>{" "}
-                  dolor sit amet consectetur adipisicing elit.
+                  and discount applicable
                 </li>
               </ul>
             </div>
             <div className="ss_btn">
-              <Link style={{background:"black" ,color:"white"}} to={"#pricing"}>Get started</Link>
+              <Link
+                style={{ background: "black", color: "white" }}
+                to={"#pricing"}
+              >
+                Get started
+              </Link>
             </div>
           </div>
           <div
@@ -99,12 +105,4 @@ const ChooseUs = () => {
 
 export default ChooseUs;
 
-
-
-
-
-
-
-
 // #0cc0df ,#38b6ff ,#0097b2, #202020
-
