@@ -45,7 +45,7 @@
 .single_hiw p {
   overflow: hidden;
 }
-.sh_title {
+/* .sh_title {
   float: left;
   background: #E6E7E5;
   border-radius: 0px;
@@ -59,7 +59,7 @@
   border-style: solid;
   border-width: 8px 8px 8px 8px ;
   border-color: #ffe06f;
-}
+} */
 .vp_top {
   margin-top: 80px !important;
 }
