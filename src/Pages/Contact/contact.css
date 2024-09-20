@@ -3,7 +3,7 @@
   font-weight: 500;
 }
 .contact input {
-  background: #151a32;
+  background: #ffe06f;
   border: 1px solid #151a32;
   border-radius: 0px;
   -webkit-box-shadow: none;
@@ -28,9 +28,10 @@
   padding: 10px 10px 10px 30px;
   width: 100%;
   margin-bottom: 30px;
+  background: #ffe06f;
 }
 .contact input:focus {
-  background: #151a32;
+  background: #e6e7e5;
   border: 1px solid #ffe06f;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -38,7 +39,7 @@
   color: #fff;
 }
 .contact textarea:focus {
-  background: #151a32;
+  background: #e6e7e5;
   border: 1px solid #ffe06f;
   -webkit-box-shadow: none;
   box-shadow: none;

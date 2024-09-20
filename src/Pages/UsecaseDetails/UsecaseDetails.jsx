@@ -46,7 +46,7 @@ const UsecaseDetails = () => {
       <section className="best-service section-padding" style={{background:"white"}}>
         <div className="container">
           <div className="section-title-two">
-            <h2>
+            <h2 className="" style={{paddingTop:"25px"}}>
               Just few steps to generate <span>content in minutes</span>
             </h2>
           </div>

@@ -8,8 +8,8 @@ import PageHeader from "../../Components/Shared/PageHeader/PageHeader";
 const Usecase = () => {
   return (
     <>
-    {/* <PageHeader pageName={"Use Case"}/> */}
-      <section id="service" className="best-service section-padding" style={{background:"white" ,paddingTop:"100px"}}>
+    {/* <PageHeader pageName={"Theory test"}/> */}
+      <section id="service" className="best-service section-padding" style={{background:"white"}}>
         <div className="container">
           {/* <div className="section-title-two">
             <h2>30+ Use Cases</h2>

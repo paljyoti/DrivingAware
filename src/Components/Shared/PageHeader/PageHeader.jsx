@@ -5,7 +5,7 @@ const PageHeader = ({ pageName, sortName }) => {
   return (
     <section className="section-top"style={{background:"white"}} >
       <div className="container">
-        <div className="col-lg-10 offset-lg-1 text-center">
+        <div className="col-lg-10 offset-lg-1 text-center " >
           <div
             className="section-top-title wow fadeInRight"
             data-wow-duration="1s"
@@ -15,7 +15,7 @@ const PageHeader = ({ pageName, sortName }) => {
             <h1>{pageName}</h1>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/" >Home</Link>
               </li>
               <li> / {sortName ? sortName : pageName}</li>
             </ul>

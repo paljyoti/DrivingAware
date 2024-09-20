@@ -21,7 +21,7 @@ const Home = () => {
       <Services />
       <ChooseUs />
       <WorkProcess />
-      <Testimonials />
+      
       {/* <Blogs /> */}
       <section id="pricing" className="price_area section-padding">
         <div className="container">
@@ -35,6 +35,7 @@ const Home = () => {
         </div>
 
         <Pracing />
+        <Testimonials />
       </section>
       {/* ---------- Start Faq */}
       <section className="faq_area section-padding">

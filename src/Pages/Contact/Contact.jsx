@@ -9,7 +9,7 @@ const Contact = () => {
     <>
       <PageHeader pageName={"Get In Touch"} sortName={"Contact"} />
       {/* --------- START ADDRESS --------- */}
-      <section className="address_area section-padding">
+      <section className="address_area section-padding" style={{background:"white",color:"black"}}>
         <div className="container">
           <div className="row text-center">
             <div
@@ -67,7 +67,7 @@ const Contact = () => {
       {/* ---------- END ADDRESS ---------  */}
 
       {/* ------ start CONTACT */}
-      <section id="contact" className="contact_area section-padding">
+      <section id="contact" className="contact_area section-padding" style={{background:"white",color:"black"}}>
         <div className="container">
           <div className="section-title-two">
             <h2>Send your message.</h2>
@@ -89,7 +89,7 @@ const Contact = () => {
                   onsubmit="return validation();"
                 >
                   <div className="row">
-                    <div className=" col-md-6">
+                    <div className=" col-md-6" >
                       <InputFiled
                         label={"Name"}
                         name={"name"}
@@ -126,7 +126,8 @@ const Contact = () => {
                       ></textarea>
                     </div>
                     <div className="col-md-12 text-center">
-                      <button
+                      <button 
+                      style={{background:"#ffe06"}}
                         type="submit"
                         value="Send message"
                         name="submit"
