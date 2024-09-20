@@ -1,7 +1,5 @@
 .hiw_area {
   position: relative;
-  /* background: #151a32; */
-  /* background:#EAE4DD ; */
   background: white;
   padding-bottom: 0px; 
  
@@ -12,16 +10,15 @@
 }
 .single_hiw {
   position: relative;
-
 }
+
+
 @media only screen and (max-width: 880px) {
   .single_hiw {
     margin-bottom: 30px;
   }
 }
 .single_hiw_content {
-  /* background: #0e1123; */
-  /* background:#E1D7C6; */
   background: #E6E7E5;
   overflow: hidden;
   padding: 30px;
@@ -31,6 +28,13 @@
   border-style: solid;
   border-width: 8px 8px 8px 8px ;
   border-color: #ffe06f;
+  opacity: 1;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  transform: translate3d(0%, 30%, 100px);
+}
+.single_hiw_content:hover{
+  transform: translateY(-10px) rotateY(5deg);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 .single_hiw h3 {
   font-weight: 700;
@@ -114,12 +118,6 @@
     left: 40%;
   }
 }
-
-
-
-
-
-
 
 
 

@@ -61,6 +61,7 @@ const WorkProcess = () => {
               </div>
             );
           })}
+    
         </div>
         {/* <div className="row">
           <div
@@ -91,6 +92,9 @@ const WorkProcess = () => {
         />
       )} */}
     </section>
+
+
+   
   );
 };
 

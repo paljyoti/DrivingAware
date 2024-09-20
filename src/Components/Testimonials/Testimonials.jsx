@@ -4,10 +4,10 @@ import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-import test_img from "../../assets/img/pexels-olly-785667.jpg";
+import test_img from "../../assets/img/young-office-team-standing-in-modern-office-picjumbo-com.jpg";
 import img1 from "../../assets/img/pexels-olly-785667.jpg";
-import img2 from "../../assets/img/testimonial/img-2.jpg";
-import img3 from "../../assets/img/testimonial/img-3.jpg";
+import img2 from "../../assets/img/pexels-mastercowley-1300402.jpg";
+import img3 from "../../assets/img/pexels-olly-834863.jpg";
 import img4 from "../../assets/img/testimonial/img-4.png";
 import Rating from "../Shared/Rating";
 

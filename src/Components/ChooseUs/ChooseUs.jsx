@@ -26,7 +26,7 @@ const ChooseUs = () => {
               </h2>
               <p>
                 Empower your driving journey with are experties, design to raise
-                driving awareness and streamline driving test bookings.partners
+                driving awareness and streamline driving test bookings.Partners
                 with us now to creating driving success story.
               </p>
               <ul>
@@ -70,7 +70,7 @@ const ChooseUs = () => {
             </div>
             <div className="ss_btn">
               <Link
-                style={{ background: "black", color: "white" }}
+                style={{ background: "#ffe06f", color: "black" }}
                 to={"#pricing"}
               >
                 Get started
@@ -93,7 +93,7 @@ const ChooseUs = () => {
                 alt="image"
               />
               <div className="wc_year">
-                <h3>Drive Safe</h3>
+                <h3>Book an Appoinment</h3>
               </div>
             </div>
           </div>
