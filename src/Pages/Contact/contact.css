@@ -67,3 +67,6 @@
   border-right: 1px solid #ffe06f;
   border-left: 1px solid #ffe06f;
 }
+.home_one :hover{
+background: #ffe06f;
+}
