@@ -70,9 +70,9 @@ const aboutUs = [
 const About = () => {
   return (
     <>
-      <PageHeader pageName="About Us" />
+      {/* <PageHeader pageName="About Us" /> */}
       {/* -------- about start */}
-      <section className="about-page section-padding">
+      <section className="about-page section-padding" style={{background:"white"}}>
         <div className="container">
           <div className="col-lg-10 offset-lg-1">
             {aboutUs.map(({ id, title, desc }) => {

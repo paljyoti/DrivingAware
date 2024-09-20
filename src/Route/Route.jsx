@@ -45,11 +45,11 @@ export const router = createBrowserRouter([
         element: <Login />,
       },
       {
-        path: "/usecase_details",
+        path: "/speedawareness",
         element: <UsecaseDetails />,
       },
       {
-        path: "/usecase",
+        path: "/theorytest",
         element: <Usecase />,
       },
       {

@@ -3,7 +3,7 @@ import "./pageHeader.css";
 import { Link } from "react-router-dom";
 const PageHeader = ({ pageName, sortName }) => {
   return (
-    <section className="section-top">
+    <section className="section-top"style={{background:"white"}} >
       <div className="container">
         <div className="col-lg-10 offset-lg-1 text-center">
           <div

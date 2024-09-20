@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./header.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { TfiAngleDown, TfiMenu } from "react-icons/tfi";
 import logo from "../../../assets/img/safe_drive-removebg-preview.png";
 
@@ -10,6 +10,11 @@ const menuList = [
     path: "/",
     name: "Home",
   },
+  // {
+  //     id: 6,
+  //     path: "/contact",
+  //     name: "Contact",
+  //    },
   // {
   //   id: 2,
   //   path: "#",
@@ -87,6 +92,10 @@ const menuList = [
   //   name: "Contact",
   // },
 ];
+
+// const navigate = useNavigate();
+
+
 const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState({
     selectId: null,

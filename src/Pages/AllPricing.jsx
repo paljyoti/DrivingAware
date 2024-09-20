@@ -7,8 +7,8 @@ import TitleTwo from "../Components/Shared/TitleTwo/TitleTwo";
 const AllPricing = () => {
   return (
     <>
-      <PageHeader pageName={"Pricing"} />
-      <section className=" section-padding">
+      {/* <PageHeader pageName={"Pricing"} /> */}
+      <section className=" section-padding" style={{background:"white"}}>
         <TitleTwo title={"Best Price for you"} />
         <Pracing />
       </section>

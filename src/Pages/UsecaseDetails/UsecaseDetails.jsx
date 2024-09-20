@@ -41,22 +41,23 @@ const list = [
 const UsecaseDetails = () => {
   return (
     <>
-      <PageHeader pageName={"Use Case Details"} sortName={"Case Details"} />
+      {/* <PageHeader pageName={"Speed  awareness "} sortName={"speedAwareness Details"} /> */}
       {/* ---------- Start use case details */}
-      <section className="best-service section-padding">
+      <section className="best-service section-padding" style={{background:"white"}}>
         <div className="container">
           <div className="section-title-two">
             <h2>
               Just few steps to generate <span>content in minutes</span>
             </h2>
           </div>
-          <div className="row">
+          <div className="row" style={{gap:"20px"}}>
             {list.map(({ id, heading, image, content, case_left }) => {
               return (
                 <>
                   {case_left ? (
                      // ---------- Right side image
                     <div
+                    style={{background:"#ffe06f"}}
                       key={id}
                       className="col-lg-10 offset-lg-1 col-xs-12"
                       data-aos="fade-up"
@@ -75,6 +76,7 @@ const UsecaseDetails = () => {
                   ) : (
                     // ---------- Left side image
                     <div
+                    style={{background:"#ffe06f"}}
                       key={id}
                       className="col-lg-10 offset-lg-1 col-xs-12"
                       data-aos="fade-up"
@@ -99,7 +101,7 @@ const UsecaseDetails = () => {
        {/* ---------- End use case details */}
        <ChooseUs/>
        <WorkProcess/>
-       <div className="section-padding"></div>
+       {/* <div className="section-padding"></div> */}
        <ScrollRestoration/>
     </>
   );

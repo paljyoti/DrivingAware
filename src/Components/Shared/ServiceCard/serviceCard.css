@@ -1,6 +1,4 @@
 .single_service {
-  /* background: #151a32; */
-  /* background: #E6E7E5; */
   background-color: #ffe06f;
   color: black;
   padding-top: 10px;
@@ -11,7 +9,7 @@
   height: 290px;
   margin-left: 30px;
   border-color: #ffe06f;
-  border-radius: 10px ;
+  border-radius: 10px;
   -webkit-transition: 0.3s;
   -webkit-transition: 0.2s;
   -o-transition: 0.3s;
@@ -20,22 +18,20 @@
   position: relative;
   z-index: 2;
   border-style: solid;
-  border-width: 8px 8px 8px 8px ;
+  border-width: 8px 8px 8px 8px;
   border-color: #ffe06f;
- 
 }
 .single_service:hover {
   /* background: #ffe06f; */
-  background: #E6E7E5;
+  background: #e6e7e5;
   /* -webkit-transform: translate(0, -5px);
   -ms-transform: translate(0, -5px);
   transform: translate(0, -5px); */
-
-z-index: 1;
-box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
-transform: scale(1.05);
-
+  z-index: 1;
+  box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
 }
+
 @media only screen and (max-width: 480px) {
   .single_service {
     padding: 30px;
@@ -43,7 +39,7 @@ transform: scale(1.05);
   }
 }
 .ss_icon hr {
- border: 2px solid #ffe06f;
+  border: 2px solid #ffe06f;
 }
 .ss_icon span {
   display: inline-block;
