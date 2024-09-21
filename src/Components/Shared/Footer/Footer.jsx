@@ -46,7 +46,7 @@ const Footer = () => {
                   <ul>
                     {links.map((link, index) => (
                       <li key={index}>
-                        <Link to={""}>{link}</Link>
+                        <Link to={"/about"}>{link}</Link>
                       </li>
                     ))}
                   </ul>
@@ -59,12 +59,12 @@ const Footer = () => {
               <h4 className="">Service's</h4>
               <ul>
                 <li>
-                  <a href="#">
+                  <a href="/theorytest">
                     <u>Theory Test</u>
                   </a>
                 </li>
                 <li>
-                  <a href="#">Speed Awarness</a>
+                  <a href="/speedawareness">Speed Awarness</a>
                 </li>
                 {/* <li>
                   <a href="#">Facebook</a>

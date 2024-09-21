@@ -25,7 +25,7 @@ const Contact = () => {
                 </i>
                 <h4>Our Location</h4>
                 <p>
-                  3481 Melrose Place, Beverly Hills <br /> CA 90210
+                  Saraswati Vihar, chakkarpur <br /> Gurugram,Haryana, Indian
                 </p>
               </div>
             </div>
@@ -41,8 +41,8 @@ const Contact = () => {
                   <TfiMobile />
                 </i>
                 <h4>Telephone</h4>
-                <p>(+1) 517 397 7100</p>
-                <p>(+1) 411 315 8138</p>
+                <p>(+91) 517 397 7100</p>
+                <p>(+91) 411 315 8138</p>
               </div>
             </div>
             <div
@@ -57,7 +57,7 @@ const Contact = () => {
                   <TfiEmail />
                 </i>
                 <h4>Send email</h4>
-                <p>Info@example.com</p>
+                <p>rishabhbahree@example.com</p>
                 <p>admin@example.com</p>
               </div>
             </div>

@@ -71,7 +71,7 @@ const ChooseUs = () => {
             <div className="ss_btn">
               <Link
                 style={{ background: "#ffe06f", color: "black" }}
-                to={"#pricing"}
+                to={"/contact"}
               >
                 Get started
               </Link>
@@ -93,7 +93,7 @@ const ChooseUs = () => {
                 alt="image"
               />
               <div className="wc_year">
-                <h3>Book an Appoinment</h3>
+                <h3><Link to={"/contact"} style={{color:"black"}}> Book an Appoinment</Link></h3>
               </div>
             </div>
           </div>

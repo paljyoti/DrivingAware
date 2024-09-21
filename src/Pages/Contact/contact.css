@@ -52,6 +52,7 @@
 }
 .single_address i {
   color: #ffe06f;
+  /* color: black; */
   font-size: 42px;
   margin-bottom: 20px;
   display: inline-block;
@@ -62,11 +63,14 @@
   font-weight: 700;
 }
 .single_address p {
+  
 }
 .sabr {
   border-right: 1px solid #ffe06f;
   border-left: 1px solid #ffe06f;
 }
-.home_one :hover{
+.home_one:hover{
 background: #ffe06f;
+/* color: #e6e7e5; */
+color: black;
 }

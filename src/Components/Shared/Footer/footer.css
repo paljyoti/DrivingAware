@@ -55,7 +55,7 @@ background: #ffe06f;
   margin-right: 6px;
 }
 .single_footer ul li a:hover {
-  color: #ffe06f;
+  /* color: #ffe06f; */
   padding-left: 10px;
 }
 
@@ -187,5 +187,6 @@ background: #ffe06f;
 }
 .footer_menu ul li a:hover {
   color: #A6AA9C;
+  /* color: black; */
   text-decoration: underline;
 }
