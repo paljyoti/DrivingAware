@@ -17,9 +17,9 @@
   margin-bottom: 30px;
   position: relative;
   z-index: 2;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 8px 8px 8px 8px;
-  border-color: #ffe06f;
+  border-color: #ffe06f; */
 }
 .single_service:hover {
   /* background: #ffe06f; */

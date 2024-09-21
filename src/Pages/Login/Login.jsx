@@ -6,9 +6,9 @@ import { ScrollRestoration } from "react-router-dom";
 const Login = () => {
   return (
     <>
-      <PageHeader pageName={"Login Page"} />
+      <PageHeader pageName={"cost"} />
       <section className="login_register section-padding">
-        <div className="container">
+        {/* <div className="container">
           <div className="row">
             <div className="col-lg-6 offset-lg-3 col-xs-12">
               <div className="login">
@@ -36,7 +36,7 @@ const Login = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
       <ScrollRestoration/>
     </>

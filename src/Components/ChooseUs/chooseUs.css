@@ -51,14 +51,17 @@
   }
 }
 .wc_year {
+  
 }
 .wc_year h3 {
   position: absolute;
   top: 70%;
+  width: 200px;
+  height: 50px;
   background: #ffe06f;
   font-weight: 800;
-  padding: 30px;
-  left: 30%;
+  padding: 7px;
+  left: 50%;
   text-align: center;
   color: #232434;
   line-height: 36px;

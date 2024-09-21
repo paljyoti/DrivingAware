@@ -7,12 +7,12 @@ import { ScrollRestoration } from "react-router-dom";
 const Register = () => {
   return (
     <>
-      <PageHeader pageName={"Register Page"} />
+      <PageHeader pageName={"Duration"} />
       <section className="login_register section-padding">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 offset-lg-3 col-xs-12">
-              <div className="register">
+              {/* <div className="register">
                 <h4 className="login_register_title">Create a new account:</h4>
                 <InputFiled
                   label={"Username"}
@@ -42,7 +42,7 @@ const Register = () => {
                     signup now
                   </button>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

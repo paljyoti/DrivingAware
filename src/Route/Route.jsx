@@ -14,6 +14,12 @@ import SingleBlog from "../Pages/SingleBlog/SingleBlog";
 import NotFound404 from "../Pages/NotFound404/NotFound404";
 import Contact from "../Pages/Contact/Contact";
 import AllPricing from "../Pages/AllPricing";
+import Cost from "../application/Cost";
+import Duration from "../application/Duration";
+import Timing from "../application/Timing";
+import Age from "../application/Age";
+import Assessment from "../application/Assessment";
+import Result from "../application/Result";
 
 export const router = createBrowserRouter([
   {
@@ -72,6 +78,31 @@ export const router = createBrowserRouter([
         path: "/pricing",
         element: <AllPricing />,
       },
+      {
+       path:"/cost",
+       element: <Cost/>,
+      },
+      {
+        path:"/duration",
+        element: <Duration/>,
+      },
+      {
+        path:"/timing",
+        element: <Timing/>,
+      },
+      {
+        path:"/eligibility",
+        element: <Age/>,
+      },
+      {
+        path:"/assessment",
+        element:<Assessment/>,
+      },
+      {
+        path:"/result",
+        element: <Result/>
+      },
+      
     ],
   },
 ]);

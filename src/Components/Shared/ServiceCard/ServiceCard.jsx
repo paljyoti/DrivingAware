@@ -11,7 +11,7 @@ const ServiceCard = ({delay, icon, desc, title}) => {
     >
       <div className="single_service">
         <div className="ss_icon">
-          <span>{icon}</span><hr />
+          <span>{icon}</span>
         </div>
         <h3>{title}</h3>
         <p>{desc}</p>
