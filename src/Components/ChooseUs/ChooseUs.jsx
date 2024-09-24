@@ -1,8 +1,10 @@
 import React from "react";
 import "./chooseUs.css";
 import { TfiCheck } from "react-icons/tfi";
+// import image from "../../src/assets/img/DRIVE SAFE.png"
+import image from "../../assets/img/Untitled design (9) (1).png"
 
-import chosseImg from "../../assets/img/why-us-bg.jpg";
+// import chosseImg from "../../assets/img/why-us-bg.jpg";
 import { Link } from "react-router-dom";
 
 const ChooseUs = () => {
@@ -22,7 +24,7 @@ const ChooseUs = () => {
           >
             <div className="wc_content text-black">
               <h2>
-                why choose <span className="text-black">us</span>
+                why ch<span className="" style={{color:"#ffe06f"}}>oo</span>se <span className="text-black">us</span>
               </h2>
               <p>
                 Empower your driving journey with are experties, design to raise
@@ -86,9 +88,10 @@ const ChooseUs = () => {
           >
             <div className="wc_img">
               <img
-                src={
-                  "http://html.tonatheme.com/2021/drivega/assets/images/resource/image-7.jpg"
-                }
+                // src={
+                //   "http://html.tonatheme.com/2021/drivega/assets/images/resource/image-7.jpg"
+                // }
+                src={image}
                 className="img-fluid"
                 alt="image"
               />

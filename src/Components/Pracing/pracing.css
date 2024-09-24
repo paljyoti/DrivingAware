@@ -4,6 +4,10 @@
   background: white;
 
 }
+.pricing_design:hover{
+  box-shadow: 0 4px 25px rgba(255, 224, 111, 1);
+  transform: scale(1.05);
+}
 
 .pricing-content {
   position: relative;
@@ -56,10 +60,14 @@
 .price-head h1 {
   font-weight: 700;
   margin-top: 10px;
+  /* color: black; */
 }
 .price-head span {
   display: block;
+  /* color: #ffe06f; */
 }
+ 
+
 .upgrade_price {
   text-decoration: underline;
   font-weight: 700;

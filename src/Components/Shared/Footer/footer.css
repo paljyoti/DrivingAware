@@ -1,5 +1,7 @@
 .footer {
-background: #ffe06f;
+/* background: #ffe06f; */
+background: black;
+
   padding-bottom: 40px;
 }
 .single_footer {
@@ -10,8 +12,8 @@ background: #ffe06f;
   }
 }
 .single_footer h4 {
-  /* color: #fff; */
-  color: black;
+  color: #fff;
+  /* color: black; */
   margin-top: 0;
   margin-bottom: 25px;
   font-weight: 700;
@@ -19,8 +21,8 @@ background: #ffe06f;
   font-size: 24px;
 }
 .single_footer p {
-  /* color: #fff; */
-  color: black;
+  color: #fff;
+  /* color: black; */
   font-weight: 500;
 }
 .single_footer img {
@@ -35,8 +37,8 @@ background: #ffe06f;
 .single_footer ul li {
 }
 .single_footer ul li a {
-  /* color: #fff; */
-  color: black;
+  color: #fff;
+  /* color: black; */
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -64,13 +66,13 @@ background: #ffe06f;
 .single_footer_address ul {
 }
 .single_footer_address ul li {
-  /* color: #fff; */
-  color: black;
+  color: #fff;
+  /* color: black; */
 }
 .single_footer_address ul li span {
   font-weight: 400;
-  /* color: #fff; */
-  color: black;
+  color: #fff;
+  /* color: black; */
   line-height: 28px;
 }
 .contact_social ul {
@@ -130,6 +132,7 @@ background: #ffe06f;
 }
 .f_facebook {
   background: #3b5998;
+  
 }
 .f_twitter {
   background: #1a90d9;
@@ -145,7 +148,7 @@ background: #ffe06f;
   margin-top: 60px !important;
   /* background: #2b2a5e; */
   padding-top: 40px;
-  border-top: 1px solid black;
+  border-top: 1px solid #ffe06f;
 }
 .footer_copyright {
   float: left;

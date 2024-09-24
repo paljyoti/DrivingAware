@@ -82,23 +82,23 @@ const Footer = () => {
         <div className="row fc">
           <div className="col-lg-6 col-sm-6 col-xs-12">
             <div className="footer_copyright">
-              <p className="text-black">&copy; 2023. All Rights Reserved.</p>
+              <p className="" style={{color:"#ffe06f"}}  >&copy; 2023. All Rights Reserved.</p>
             </div>
           </div>
           <div className="col-lg-6 col-sm-6 col-xs-12">
             <div className="footer_menu">
               <ul>
                 <li>
-                  <FaInstagramSquare size={25} />
+                  <FaInstagramSquare style={{background:"#ff5252"}}  size={25} />
                 </li>
                 <li>
-                  <FaFacebook size={25} />
+                  <FaFacebook  style={{background:"#3b5998"}} size={25} />
                 </li>
                 <li>
-                  <BsTwitterX size={25} />
+                  <BsTwitterX  style={{background:"black"}} size={25} />
                 </li>
                 <li>
-                  <FaLinkedinIn size={25} />
+                  <FaLinkedinIn  style={{background:"#0e76a8"}}  size={25} />
                 </li>
               </ul>
             </div>

@@ -88,14 +88,18 @@ p.section-title-white {
   margin-bottom: 60px;
 }
 .section-title h2{
-  color: black;
+  color: #ffe06f;
+  font-weight: 800;
+  font-size: large;
 }
 .section-title h2::after{
-  background: black;
+  background:  #ffe06f;
+  border: 1px solid  #ffe06f ;
+  
 }
 .section-title p{
   color: black;
-  /* -webkit-text-stroke: 2px  #ffe06f ; */
+  /* font-size: 30px; */
 }
 .section-title p span {
   color: black;

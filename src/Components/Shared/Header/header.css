@@ -327,9 +327,10 @@
   border-radius: 5px;
 }
 .call_to_action a:hover {
-  background: #3f3eed;
-  border: 1px solid #3f3eed;
-  color: #fff;
+  box-shadow: 0 8px 50px rgba(255, 224, 111, 1);
+  transform: scale(1.05);
+  /* color: #fff; */
+  background:  #e6e7e5 ;
 }
 @media only screen and (max-width: 880px) {
   .call_to_action a {

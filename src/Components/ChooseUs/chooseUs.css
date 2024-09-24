@@ -3,7 +3,7 @@
   position: relative;
 }
 .wc_content h2 {
-  font-weight: 700;
+  font-weight: 900;
   margin-bottom: 20px;
   text-transform: capitalize;
   line-height: 60px;
@@ -18,7 +18,7 @@
 .wc_content ul {
 }
 .wc_content ul li span {
-  background: rgba(63, 62, 237, 0.2);
+  background: rgba(63, 62, 237, 0.2); 
   display: inline-block;
   margin-right: 10px;
   width: 30px;
@@ -50,8 +50,14 @@
     margin-top: 60px;
   }
 }
-.wc_year {
-  
+.ss_btn:hover{
+  transform: scale(1.05);
+  /* box-shadow: 0 8px 50px ; */
+}
+
+.wc_year:hover h3{
+  box-shadow: 0 8px 50px ;
+  transform: scale(1.05);
 }
 .wc_year h3 {
   position: absolute;
@@ -65,8 +71,9 @@
   text-align: center;
   color: #232434;
   line-height: 36px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   right: 0;
+  border-radius: 6px;
 }
 @media only screen and (max-width: 480px) {
   .wc_year h3 {

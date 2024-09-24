@@ -50,7 +50,7 @@ const pricingList = [
       },
     ],
     delay: "100",
-    isStart: "Start Now",
+    isStart: "Book Now",
   },
   {
     id: 2,
@@ -92,7 +92,7 @@ const pricingList = [
       },
     ],
     delay: "200",
-    isStart: "Subscribe Now",
+    isStart: "Book Now",
   },
   {
     id: 3,
@@ -134,7 +134,7 @@ const pricingList = [
       },
     ],
     delay: "300",
-    isStart: "Subscribe Now",
+    isStart: "Book Now",
   },
 ];
 const Pracing = () => {
@@ -166,7 +166,7 @@ const Pracing = () => {
                     <div className="price-head">
                       <h2>{planName}</h2>
                       <h1 className="price">${amount}</h1>
-                      <span>/{time}</span>
+                      <span style={{color:"#ffe06f"}}>/{time}</span>
                       <span className="upgrade_price">{upgrade_price}</span>
                     </div>
                     <ul>

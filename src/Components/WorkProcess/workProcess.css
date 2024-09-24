@@ -7,6 +7,8 @@
 
 .mainTitle{
   color: black;
+  font-weight:800 ;
+  font-size: large;
 }
 .single_hiw {
   position: relative;
@@ -34,7 +36,8 @@
 }
 .single_hiw_content:hover{
   transform: translateY(-10px) rotateY(5deg);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); */  
+  box-shadow: 0 8px 50px rgba(255, 224, 111, 1);
 }
 .single_hiw h3 {
   font-weight: 700;
