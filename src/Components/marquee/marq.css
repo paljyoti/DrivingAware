@@ -1,11 +1,17 @@
+
+.HM{
+    /* background:#ffe06f ; */
+    background: white;
+}
 .marq{
-    /* background: white; */
     /* color: #ffe06f; */
     /* color: black; */
     /* color: rgb(220, 220, 220); */
-    color: #F4EEEE;
+    /* color: #F5F5F5; */
+    /* color: #F4EEEE; */
+    color: #E6E7E5;
     font-size: 200px;
     height: 200px;
     font-weight: 800;
-
+     overflow: hidden;
 }

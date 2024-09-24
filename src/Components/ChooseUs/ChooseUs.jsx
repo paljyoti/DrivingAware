@@ -96,7 +96,7 @@ const ChooseUs = () => {
                 alt="image"
               />
               <div className="wc_year">
-                <h3><Link to={"/contact"} style={{color:"black"}}> Book now</Link></h3>
+                <h3><Link to={"/contact"} style={{color:"black"}}> Book Now</Link></h3>
               </div>
             </div>
           </div>
