@@ -11,6 +11,7 @@ import Pracing from "../Components/Pracing/Pracing";
 import Faq from "../Components/Faq/Faq";
 import Title from "../Components/Shared/Title/Title";
 import { ScrollRestoration } from "react-router-dom";
+import Marq from "../Components/marquee/Marq";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       {/* <Feature /> */}
       {/* <Partner /> */}
       <Services />
+      <Marq/>
       <ChooseUs />
       <WorkProcess />
       
