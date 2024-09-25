@@ -1,9 +1,10 @@
 .home_bg {
-  /* height: 750px; */
+  height: 750px;
   /* height: 100vh; */
   position: relative;
  /* background: linear-gradient(45deg,#E6E7E5 ,#ffe06f); */
- background: #ffe06f;
+ /* background: white; */
+
 
 
 }

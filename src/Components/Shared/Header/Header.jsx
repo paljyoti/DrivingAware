@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./header.css";
 import { Link, useNavigate } from "react-router-dom";
 import { TfiAngleDown, TfiMenu } from "react-icons/tfi";
-import logo from "../../../assets/img/safe_drive-removebg-preview.png";
+// import logo from "../../../assets/img/safe_drive__1_-removebg-preview.png";
 
 const menuList = [
   {
@@ -127,11 +127,11 @@ const Header = () => {
       <div className="container">
         <div className="d-flex justify-content-between">
           <div className="">
-            <div className="site-logo">
+            {/* <div className="site-logo">
               <Link to="/">
                 <img src={logo} alt="" />
               </Link>
-            </div>
+            </div> */}
           </div>
 
           <div className=" ">

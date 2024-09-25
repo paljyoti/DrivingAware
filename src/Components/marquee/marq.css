@@ -1,6 +1,5 @@
 
 .HM{
-    /* background:#ffe06f ; */
     background: white;
 }
 .marq{
@@ -10,8 +9,8 @@
     /* color: #F5F5F5; */
     /* color: #F4EEEE; */
     color: #E6E7E5;
-    font-size: 200px;
-    height: 200px;
+    font-size: 150px;
+    height: 150px;
     font-weight: 800;
-     overflow: hidden;
+    overflow: hidden;
 }
