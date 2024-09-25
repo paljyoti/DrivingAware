@@ -2,7 +2,7 @@
 .home_bg {
   height: 100vh; /* Set height to fill the entire viewport height */
   position: relative;
-  overflow: hidden; /* Prevent overflow of content */
+  overflow: hidden;  /*Prevent overflow of content */
 }
 
 @media only screen and (max-width: 480px) {

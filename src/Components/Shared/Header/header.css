@@ -22,10 +22,10 @@
   animation: fadeInDown 800ms;
   -webkit-backface-visibility: hidden;
   border-radius: 0px;
-  background: #fff;
+  /* background: #fff; */
   /* background: transparent; */
-  -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.07);
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.07);
+  /* -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.07); */
 }
 #navigation {
   padding: 5px 0;
@@ -34,7 +34,7 @@
 }
 #navigation.navbar-fixed {
   padding: 10px 0;
-  background: white;
+  /* background: white; */
   /* border-color: #151a32; */
 }
 
