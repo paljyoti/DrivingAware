@@ -1,39 +1,31 @@
+/* Styling for the banner section */
 .home_bg {
-  height: 750px;
-  /* height: 100vh; */
+  height: 100vh; /* Set height to fill the entire viewport height */
   position: relative;
- /* background: linear-gradient(45deg,#E6E7E5 ,#ffe06f); */
- /* background: white; */
-
-
-
+  overflow: hidden; /* Prevent overflow of content */
 }
-/* img {
-width: 100%;
-height: 100%;
-background-size: cover;
-border-radius: 50% 0 50% 0/100%  0 100% 0;
-} */
-
-
-
-
 
 @media only screen and (max-width: 480px) {
   .home_bg {
-    height: 850px;
+    height: 100vh; /* Keep it 100% of the viewport height for mobile devices as well */
   }
 }
+
+/* Center content within the banner */
 .about_me_content {
   padding-top: 250px;
   position: relative;
+  text-align: center;
 }
+
 @media only screen and (max-width: 768px) {
   .about_me_content {
     padding-left: 30px;
     padding-right: 20px;
+    padding-top: 200px; /* Adjust padding for tablets */
   }
 }
+
 .about_me_content h1 {
   font-size: 58px;
   font-weight: 900;
@@ -41,12 +33,14 @@ border-radius: 50% 0 50% 0/100%  0 100% 0;
   line-height: 70px;
   margin-bottom: 20px;
 }
+
 @media only screen and (max-width: 880px) {
   .about_me_content h1 {
     font-size: 40px;
     line-height: 50px;
   }
 }
+
 .about_me_content h1 span {
   color: transparent;
   padding: 0 !important;
@@ -58,25 +52,24 @@ border-radius: 50% 0 50% 0/100%  0 100% 0;
   font-weight: 900;
   text-transform: capitalize;
 }
+
 .about_me_content p {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   font-weight: 400;
   font-size: 18px;
   width: 70%;
   margin: auto;
-  margin-bottom: 30px;
 }
+
+/* Button styles */
 .home_btn {
   position: relative;
 }
-@media only screen and (max-width: 480px) {
-  .home_btn {
-    margin-left: 30px;
-  }
-}
+
 @media only screen and (max-width: 480px) {
   .home_btn {
     margin-top: 30px;
+    margin-left: 30px;
   }
 }
 
@@ -88,49 +81,73 @@ border-radius: 50% 0 50% 0/100%  0 100% 0;
   font-size: 18px;
   padding: 14px 40px;
   text-transform: capitalize;
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  border-radius: 5px;
-  display: inline-block;
   font-weight: 700;
+  display: inline-block;
 }
+
 .home_one:hover,
 .home_one:focus {
   background: #3f3eed;
   border: 1px solid #3f3eed;
   color: #fff;
-  -webkit-box-shadow: 10px 15px 18px rgba(23, 23, 36, 0.1);
   box-shadow: 10px 15px 18px rgba(23, 23, 36, 0.1);
 }
-/*Image style coding*/
+
+/* Profile image styling */
 .profile_img {
   padding-top: 200px;
 }
+
 @media only screen and (max-width: 812px) {
   .profile_img {
     padding-top: 100px;
     text-align: center;
   }
 }
+
 .profile_img img {
+  width: 100%;
+  max-width: 150px; /* Adjust size of the profile image */
+  border-radius: 50%;
 }
 
-.home_socials {
-}
+/* Social media links */
 .home_socials ul {
+  list-style: none;
+  padding: 0;
 }
+
 .home_socials ul li {
-  float: left;
+  display: inline-block;
 }
+
 .home_socials ul li a {
   color: #1b1e22;
   margin-right: 15px;
   font-size: 20px;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
+
 .home_socials ul li a:hover {
   color: #6138bd;
+}
+
+/* Video background responsiveness */
+.home_bg video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; /* This ensures the video covers the entire screen while maintaining the aspect ratio */
+  z-index: -1;
+  overflow: hidden; /* Prevents overflow from the edges */
+}
+
+@media only screen and (max-width: 768px) {
+  .home_bg video {
+    object-fit: cover; /* Ensures video still fills the screen on smaller devices */
+  }
 }

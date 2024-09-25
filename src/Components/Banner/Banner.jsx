@@ -8,10 +8,9 @@ import "./banner.css";
 // import vedio from "../../assets/img/8996418-uhd_3840_2160_30fps.mp4";
 // import vedio from "../../assets/img/clideo_editor_8dc5ee77563240d2910832d363a783a0 (1).mp4"
 // import vedio from "../../assets/img/6011545_Car_Vehicle_1920x1080.mp4"
-import vedio from "../../assets/img/Stay safe during Covid - 19! (3).mp4"
+import vedio from "../../assets/img/Stay safe during Covid - 19! (3).mp4";
 
 // import vedio from "../../assets/img/Stay safe during Covid - 19! (2).mp4"
-
 
 import { TypeAnimation } from "react-type-animation";
 import { Link } from "react-router-dom";
@@ -19,18 +18,14 @@ import { Link } from "react-router-dom";
 const Banner = () => {
   return (
     <section id="home" className="home_bg">
-          
       {/* <img src={image} style={{width:"100vw", height:"auto", objectFit:"cover"}}  alt="" /> */}
 
-  
+      <video autoplay muted loop>
+        <source src={vedio} type="video/mp4" />
+        Sorry, your browser doesn't support embedded videos.
+      </video>
 
-     <video controls autoplay  muted loop style={{width:"100vw" ,height:"100vh",objectFit:"cover"}}  >
-      <source src={vedio} type="video/mp4" />
-      Sorry, your browser doesn't support embedded videos.
-       </video>
-
-
-       {/* <div className="container">
+      {/* <div className="container">
         <div className="row">
           <div className="offset-lg-1 col-lg-10 col-sm-12 col-xs-12 text-center">
             <div className="about_me_content text-black">
