@@ -1,0 +1,47 @@
+
+.containers h1 {
+    color: #ffd700; 
+    text-align: left;
+    padding-top: 120px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    margin-left: 30px;
+  }
+  
+  .containers p {
+    width: 90vw;
+  
+    line-height: 1.6;
+    margin: 10px 0;
+    margin-left: 30px;
+    /* margin-bottom: 30px; */
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  }
+  

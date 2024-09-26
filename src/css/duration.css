@@ -1,0 +1,106 @@
+/* 
+.containers h1 {
+    color: #ffd700; 
+    text-align: left;
+    padding-top: 120px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    margin-left: 30px;
+  }
+  
+  .containers p {
+    width: 90vw;
+  
+    line-height: 1.6;
+    margin: 10px 0;
+    margin-left: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  }
+   */
+
+
+/* Duration.css */
+
+
+
+.containers {
+    margin-top: 120px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    background-color: #ffffff; 
+    color: #000000; 
+    border-radius: 8px;
+    box-shadow: 0 8px 50px rgba(255, 224, 111, 1);
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+}
+.containers p{
+}
+
+.containers h1 {
+    
+    color: #FFD700; /* Yellow color for headline */
+    
+}
+
+/* .text-black {
+    line-height: 1.6;
+    margin: 10px 0;
+} */
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .containers {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .text-black {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .containers {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .text-black {
+        font-size: 14px;
+    }
+}
+

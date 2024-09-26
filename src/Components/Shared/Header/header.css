@@ -23,7 +23,7 @@
   -webkit-backface-visibility: hidden;
   border-radius: 0px;
   /* background: #fff; */
-  /* background: transparent; */
+  background: #e6e7e5;
   /* -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.07);
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.07); */
 }
@@ -33,7 +33,7 @@
   /* background-color: transparent; */
 }
 #navigation.navbar-fixed {
-  padding: 10px 0;
+  /* padding: 10px 0; */
   /* background: white; */
   /* border-color: #151a32; */
 }

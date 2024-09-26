@@ -17,48 +17,32 @@ const reviewList = [
     name: "",
     post: "Marketer",
     image: img1,
-    review: `Relieve the stress of juggling multiple projects by
-    providing seamless collaboration, team billing and robust
-    project management features all without the hefty price
-    tag.it's easy to get back to what matters: running your
-    business and making sure everything runs smoothly.`,
-    rating: 5,
+    review: `The National Speed Awareness course in the UK is a valuable resource for drivers who have been caught speeding. As an alternative to receiving points on their driving license, this course aims to educate drivers and increase their awareness of road safety.`,
+    rating: 4,
   },
   {
     id: 2,
     name: "John ",
     post: "Author",
     image: img2,
-    review: `Relieve the stress of juggling multiple projects by
-    providing seamless collaboration, team billing and robust
-    project management features all without the hefty price
-    tag.it's easy to get back to what matters: running your
-    business and making sure everything runs smoothly.`,
-    rating: 5,
+    review: `I appreciate the focus on helping drivers understand the consequences of their actions and strive to reduce the likelihood of reoffending. By providing valuable information and resources, this course can positively impact the overall safety of our roads.`,
+    rating: 3,
   },
   {
     id: 3,
     name: "Lahan Sare Sahab",
     post: "Blogger",
     image: img3,
-    review: `Relieve the stress of juggling multiple projects by
-    providing seamless collaboration, team billing and robust
-    project management features all without the hefty price
-    tag.it's easy to get back to what matters: running your
-    business and making sure everything runs smoothly.`,
-    rating: 5,
+    review: `Overall, I highly support and recommend The National Speed Awareness course for its efforts in promoting responsible driving and creating safer roads for all.`,
+    rating: 4,
   },
   {
     id: 4,
     name: "",
     post: "CEO",
     image: img4,
-    review: `Relieve the stress of juggling multiple projects by
-    providing seamless collaboration, team billing and robust
-    project management features all without the hefty price
-    tag.it's easy to get back to what matters: running your
-    business and making sure everything runs smoothly.`,
-    rating: 5,
+    review: `As someone who's been eagerly working towards getting my driving license, I recently tackled the UK theory test, and I have to say—what a revelation! The theory test is truly an essential milestone for all learner drivers, encompassing the nuts and bolts of safe driving, which is fundamental for new motorists and motorcyclists alike.`,
+    rating: 3,
   },
 ];
 const responsive = {
@@ -96,7 +80,7 @@ const Testimonials = () => {
           <h2>Reviews</h2>
           <p>
             All the reviews loved by Customer Satisfaction rating from
-            <span>1300+ reviews on TrustPilot</span> & more
+            <span> 1300+ reviews on TrustPilot</span> & more
           </p>
         </div>
 

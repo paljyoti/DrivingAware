@@ -8,19 +8,19 @@ import Lightbox from "../LightBox/LightBox";
 const processList = [
   {
     // id: "01",
-    title: "Choose Usecase",
+    title: "Step 01",
     desc: `After receiving a Notice of Intended Prosecution (NIP), drivers may be offered the course.`,
     delay: "100",
   },
   {
     // id: "02",
-    title: "Input context",
+    title: "Step 02",
     desc: `Acceptance of the offer means avoiding penalty points and a fine, drivers may be offered the course..`,
     delay: "200",
   },
   {
     // id: "03",
-    title: "Magically Writes",
+    title: "Step 03",
     desc: `The course must be completed within a specified time, typically 12 weeks from the offer.`,
     delay: "300",
   },

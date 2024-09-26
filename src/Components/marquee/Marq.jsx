@@ -5,7 +5,7 @@ import Marquee from 'react-fast-marquee'
 function Marq() {
   return (
     <div className='HM' >
-     <Marquee  className='marq ' >BOOK - NOW </Marquee>
+     <Marquee  className='marq ' >-SPEED-AWARENESS </Marquee>
     </div>
   )
 }
