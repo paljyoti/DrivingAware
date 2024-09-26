@@ -3,8 +3,15 @@ import "../css/age.css";
 
 function Age() {
   return (
+
+
+<div>
+<div className="headings">
+<h1>ELIGIBILITY</h1>
+      </div>
+
+
     <div className="containers">
-      <h1>ELIGIBILITY</h1>
       <p className="text-black">
         Age: At least 17 years old and possess a valid driving license. The
         course is offered as an alternative to prosecution for minor speeding
@@ -23,6 +30,8 @@ function Age() {
         criteria allows individuals to advance toward obtaining their driving
         license.
       </p>
+    </div>
+
     </div>
   );
 }

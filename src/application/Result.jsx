@@ -3,8 +3,13 @@ import "../css/result.css";
 
 function Result() {
   return (
+
+<div>
+<div className="headings">
+<h1>RESULTS</h1>
+      </div>
     <div className="containers">
-      <h1>RESULTS</h1>
+     
       <p className="text-black">
         Upon successful completion of the course, participants usually receive a
         certificate, which can be presented to the police or court to avoid
@@ -22,6 +27,7 @@ function Result() {
         theory test as soon as they feel prepared, although it’s advisable to
         study the areas where they struggled before attempting again.
       </p>
+    </div>
     </div>
   );
 }

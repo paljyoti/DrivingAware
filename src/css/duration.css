@@ -48,12 +48,17 @@
 
 /* Duration.css */
 
+.headings h1{
+    margin-top: 100px;
+    font-weight: 800;
+    color: #FFD700;
 
-
+}
 .containers {
-    margin-top: 120px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-top: 30px;
+    padding: 20px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
     margin-bottom: 50px;
     background-color: #ffffff; 
     color: #000000; 

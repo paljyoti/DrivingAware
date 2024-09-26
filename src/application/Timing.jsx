@@ -3,8 +3,14 @@ import "../css/timing.css";
 
 function Timing() {
   return (
+
+ <div>
+   
+   <div className="headings">
+   <h1>TIMINGS FOR BOOKING SLOTS</h1>
+      </div>
+
     <div className="containers">
-      <h1>TIMINGS FOR BOOKING SLOTS</h1>
       <p className="text-black">
         Speed awareness courses in the UK vary by provider, typically offered
         throughout the week, including evenings and weekends. Most courses last
@@ -29,6 +35,7 @@ function Timing() {
         center or the official DVSA website for specific availability and to
         book your slot in advance, as popular times may fill up quickly.
       </p>
+    </div>
     </div>
   );
 }

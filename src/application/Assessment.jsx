@@ -3,8 +3,15 @@ import "../css/assessment.css";
 
 function Assessment() {
   return (
+
+<div>
+
+<div className="headings">
+<h1>ASSESMENT</h1>
+      </div>
+  
     <div className="containers">
-      <h1>ASSESMENT</h1>
+      
       <p className="text-black">
         There is usually no formal exam at the end of the course.Participants
         are often assessed through interactive discussions and activities to
@@ -23,6 +30,7 @@ function Assessment() {
         completed successfully, and the total duration of the test is
         approximately 1 hour and 30 minutes.
       </p>
+    </div>
     </div>
   );
 }
