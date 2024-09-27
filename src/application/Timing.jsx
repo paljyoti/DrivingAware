@@ -24,11 +24,11 @@ function Timing() {
         Theory test slots can typically be booked at various times throughout
         the week. Here are the general timings
       </p>
-      <h1>Weekdays</h1>
+      <h2 style={{color:"#FFD700"}}>Weekdays</h2>
       <p>
         Morning: 8:00 AM to 12:00 PM <br /> Afternoon: 1:00 PM to 5:00 PM
       </p>
-      <h1>Weekends</h1>
+      <h2 style={{color:"#FFD700"}} >Weekends</h2>
       <p>
         Availability may vary by location, but many centers offer morning and
         early afternoon slots. It's advisable to check with your local test

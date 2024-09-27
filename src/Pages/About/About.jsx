@@ -8,24 +8,14 @@ const aboutUs = [
     id: 1,
     title: "Vision & Mission",
     desc: `<p>
-        A Vision Statement outlines the long-term aspirations and goals
-        of an organization. It describes what the organization hopes to
-        achieve in the future and serves as a guiding principle for its
-        strategic decisions and actions. A well-crafted vision statement
-        should be inspirational, ambitious, and forward-looking,
-        inspiring both employees and stakeholders to work towards a
-        common purpose.
+       The mission of the Speed Awareness Course and the Theory Test is to enhance road safety and promote responsible driving behavior by providing comprehensive knowledge of traffic laws, speed limits, and safe driving practices. These initiatives focus on preventing speed-related incidents, instilling a sense of responsibility among drivers, and equipping participants with the skills needed to make safe driving decisions. The vision is to create a culture of safe driving that reduces road traffic incidents and fatalities, allowing all road users—drivers, pedestrians, and cyclists—to navigate without fear. This includes fostering informed drivers who contribute to community safety, promoting lifelong learning about road safety, and adapting courses to address current challenges and advancements in driving technology. Through these efforts, the Speed Awareness Course and Theory Test aim to build a safer driving environment for present and future generations.
       </p>`,
   },
   {
     id: 2,
     title: "Who we are",
     desc: `<p>
-    On the other hand, as a user interacting with me, you are a
-    human individual or group using this AI system to ask questions,
-    seek information, or engage in a conversation. Your purpose
-    could be to gain knowledge, get assistance, or explore various
-    topics.
+   We are a dedicated team committed to promoting road safety and responsible driving through comprehensive educational programs. Our focus is on providing engaging and informative courses, such as the Speed Awareness Course and Theory Test, to empower drivers with the knowledge and skills they need to navigate the roads safely. We believe in fostering a culture of safety and responsibility among all road users, ultimately aiming to reduce accidents and enhance community well-being. Our team consists of experienced trainers and road safety advocates passionate about making a positive impact on driving behaviors and public safety.
   </p>
   <p>
                 AiLife, the organization behind this AI, is a research lab that
@@ -46,12 +36,9 @@ const aboutUs = [
     id: 3,
     title: "Join our team",
     desc: ` <p>
-    Feel a part of the team wherever you are. Frequent company-wide
-    virtual events & activities. Home office stipend. Optional
-    working hubs in Austin, Salt Lake City, and Sydney. Fun company
-    offsites. Email here -{" "}
+    At our organization, we are passionate about promoting road safety and fostering responsible driving habits. We are always looking for dedicated individuals to join our team and contribute to our mission of making the roads safer for everyone. If you have a background in education, road safety, or a related field, and share our commitment to empowering drivers with knowledge and skills, we would love to hear from you.
     <u>
-      <a href="mailto:example.com">example@yourmail.com</a>
+      <a href="mailto:example.com">rishabhbahree@gmail.com</a>
     </u>
   </p>`,
   },
@@ -59,11 +46,11 @@ const aboutUs = [
     id: 4,
     title: "Get in Touch with us",
     desc: ` <p>
-    We're always an email away - please say hello at{" "}
+   We’d love to hear from you! If you have any questions, feedback, or inquiries about our courses and initiatives, please don’t hesitate to reach out. Whether you’re interested in joining our team, need assistance with booking a course, or simply want to learn more about our mission, we are here to help.You can contact us via email at
     <u>
-      <a href="mailto:example.com">example@yourmail.com</a>
-    </u>{" "}
-    if we can be of any help or you have any questions.
+      <a href="mailto:example.com">rishabhbahree@gmail.com</a>
+    </u>
+    or fill out the contact form on our website.
   </p>`,
   },
 ];
@@ -72,7 +59,10 @@ const About = () => {
     <>
       {/* <PageHeader pageName="About Us" /> */}
       {/* -------- about start */}
-      <section className="about-page section-padding" style={{background:"white"}}>
+      <section
+        className="about-page section-padding"
+        style={{ background: "white" }}
+      >
         <div className="container">
           <div className="col-lg-10 offset-lg-1">
             {aboutUs.map(({ id, title, desc }) => {
@@ -87,7 +77,7 @@ const About = () => {
         </div>
       </section>
       {/* -------- about End */}
-      <ScrollRestoration/>
+      <ScrollRestoration />
     </>
   );
 };

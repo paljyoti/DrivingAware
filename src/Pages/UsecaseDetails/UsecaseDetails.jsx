@@ -25,20 +25,26 @@ const list = [
     content: `Avoid 3-6 penalty points on your driving license. Avoid fines of up to £1,000 (or £2,500 for motorway speeding).Gain awareness of road safety, reducing the risk of future offences.Choose between in-person and online courses for your convenience.Enjoy an interactive experience without formal exams, making it more engaging.Help promote safer roads for everyone through improved driving behaviour. `,
   },
   {
-    id: 3,
+  id:3,
+  heading:"Eligibility Criteria",
+  content:`To be eligible for the National Speed Awareness Course in the UK, candidates must meet several criteria. Firstly, participants should be at least 17 years old. The course is typically offered to drivers who have been caught speeding and qualify for the course instead of receiving penalty points on their license. It is generally intended for first-time offenders, especially those who have committed minor speeding violations. Eligibility may vary by local authority, so candidates should check the specific requirements for their area. Additionally, participants must book the course in advance and attend the full session to successfully complete it. Meeting these criteria allows individuals to participate in the course and avoid points on their driving license.`,
+
+  },
+  {
+    id: 4,
     heading: "Course Structure",
     // image: usecase3,
     content: `The course typically lasts 4 hours and is available in both classroom and online formats, featuring interactive group sessions. It covers essential topics such as speed limits and road safety laws, the consequences of speeding—including accidents, fatalities, and legal issues—along with practical tips for safe driving and maintaining compliance with speed limits. Additionally, participants will explore the psychology behind speeding and driver behavior. Notably, there is no test or exam at the end, fostering a more relaxed and engaging learning experience. `,
   },
   {
-    id: 4,
+    id: 5,
     heading: "Effectiveness and Administration of the Course",
     // image: usecase4,
     // case_left: true,
     content: `Studies indicate that the course has effectively reduced reoffending rates while enhancing participants' understanding of speed-related dangers, contributing to overall improvements in road safety. Course providers, including the National Driver Offender Retraining Scheme (NDORS), offer these programs through local authorities or private providers. Accredited trainers ensure a high standard of education, making the courses both informative and impactful.`,
   },
   {
-    id: 4,
+    id: 6,
     // image: usecase4,
     heading: "CONCLUSION",
     content: `Speed Awareness Courses offer a valuable opportunity for drivers to learn and improve.Promotes a safer driving culture across the UK.It’s not just about avoiding penalties—it's about saving lives.`,

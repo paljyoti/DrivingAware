@@ -3,13 +3,13 @@ import "./banner.css";
 // import image from "../../assets/img/Add a heading (6).png"
 // import image from "../../assets/img/ai-generated-8606642_1280.png"
 // import image from "../../assets/img/30047.jpg"
-// import image from "../../assets/img/25469.jpg"
+import image from "../../assets/img/Untitled (1920 x 1080 px) (4) (2).png";
 
 // import vedio from "../../assets/img/8996418-uhd_3840_2160_30fps.mp4";
 // import vedio from "../../assets/img/clideo_editor_8dc5ee77563240d2910832d363a783a0 (1).mp4"
 // import vedio from "../../assets/img/6011545_Car_Vehicle_1920x1080.mp4"
 // import vedio from "../../assets/img/Stay safe during Covid - 19! (3).mp4";
-import vedio from "../../assets/img/Stay safe during Covid - 19! (2).mp4"
+// import vedio from "../../assets/img/Stay safe during Covid - 19! (2).mp4"
 
 import { TypeAnimation } from "react-type-animation";
 import { Link } from "react-router-dom";
@@ -17,12 +17,12 @@ import { Link } from "react-router-dom";
 const Banner = () => {
   return (
     <section id="home" className="home_bg">
-      {/* <img src={image} style={{width:"100vw", height:"auto", objectFit:"cover"}}  alt="" /> */}
+      <img src={image} style={{width:"100vw", height:"auto", objectFit:"cover"}}  alt="" />
 
-      <video autoPlay muted loop  style={{objectFit:"cover"}} >
+      {/* <video autoPlay muted loop  style={{objectFit:"cover"}} >
         <source src={vedio} type="video/mp4" />
         Sorry, your browser doesn't support embedded videos.
-      </video>
+      </video> */}
 
       {/* <div className="container">
         <div className="row">

@@ -4,9 +4,9 @@ import "../css/cost.css";
 function Cost() {
   return (
     <div>
-    <div className="ct" style={{background:"white"}}>
+    <div className="ct">
       <h1>COST</h1>
-      <div className="container">
+      <div className="contain">
         <h1>For gov. website book a test</h1>
         <h2>Step 1: Receive the Offer</h2>
         <p>

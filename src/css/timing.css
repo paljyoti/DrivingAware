@@ -54,6 +54,13 @@
     color: #FFD700;
 
 }
+.headings h2{
+  justify-content: left;
+  margin-top: 100px;
+  font-weight: 800;
+  color: #FFD700;
+
+}
 .containers {
     margin-top: 30px;
     padding: 20px;
