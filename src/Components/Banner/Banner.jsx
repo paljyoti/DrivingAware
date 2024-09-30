@@ -1,13 +1,9 @@
 import React from "react";
 import "./banner.css";
-// import image from "../../assets/img/Add a heading (6).png"
-// import image from "../../assets/img/ai-generated-8606642_1280.png"
+
 // import image from "../../assets/img/30047.jpg"
 import image from "../../assets/img/Untitled (1920 x 1080 px) (4) (2).png";
 
-// import vedio from "../../assets/img/8996418-uhd_3840_2160_30fps.mp4";
-// import vedio from "../../assets/img/clideo_editor_8dc5ee77563240d2910832d363a783a0 (1).mp4"
-// import vedio from "../../assets/img/6011545_Car_Vehicle_1920x1080.mp4"
 // import vedio from "../../assets/img/Stay safe during Covid - 19! (3).mp4";
 // import vedio from "../../assets/img/Stay safe during Covid - 19! (2).mp4"
 

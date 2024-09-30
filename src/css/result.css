@@ -1,113 +1,66 @@
-/* 
-.containers h1 {
-    color: #ffd700; 
-    text-align: left;
-    padding-top: 120px;
-    margin-bottom: 20px;
-    font-weight: 800;
-    margin-left: 30px;
+.resultTime {
+    position: relative; 
+    width: 100vw; 
+    height: 100vh; 
+    overflow: hidden; 
   }
   
-  .containers p {
-    width: 90vw;
-  
-    line-height: 1.6;
-    margin: 10px 0;
-    margin-left: 30px;
-   
+  .resultTime img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
   }
   
-  @media (max-width: 768px) {
-    .container {
-      padding: 15px;
-    }
-  
-    h1 {
-      font-size: 24px;
-    }
-  
-    p {
-      font-size: 16px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .container {
-      padding: 10px;
-    }
-  
-    h1 {
-      font-size: 20px;
-    }
-  
-    p {
-      font-size: 14px;
-    }
-  }
-   */
-
-
-
-
-   
-.headings h1{
-    margin-top: 100px;
-    font-weight: 800;
-    color: #FFD700;
-
-}
-.containers {
-    margin-top: 30px;
+  .result-text {
+    position: absolute; 
+    /* top: 300px;  */
+    right: 20px; 
+    color: black; 
+    font-size: 4rem; 
+    font-weight: bold; 
+    /* background-color: rgba(0, 0, 0, 0.5);  */
     padding: 20px;
-    /* margin-left: 20px;
-    margin-right: 20px; */
-    margin-bottom: 50px;
-    background-color: #ffffff; 
-    color: #000000; 
-    border-radius: 8px;
-    box-shadow: 0 8px 50px rgba(255, 224, 111, 1);
-    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
-}
-.containers p{
-}
+    margin-right: 40px;
+    border-radius: 5px; 
+  }
 
-.containers h1 {
-    
-    color: #FFD700; /* Yellow color for headline */
-    
-}
 
-/* .text-black {
-    line-height: 1.6;
-    margin: 10px 0;
-} */
 
-/* Responsive styles */
-@media (max-width: 768px) {
-    .containers {
-        padding: 15px;
-    }
+   
+  .result {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 20px; 
+  }
+  
+  .resultImg {
+    flex: 1; 
+    max-width: 40%; 
+  }
+  
+  .resultImg img {
+    width: 100%; 
+    height: auto; 
+  }
+  
+  .resultPara {
+    padding-top: 20px;
+    flex: 1; 
+    margin-left: 20px; 
+    margin-right: 40px;
+  }
+  
+  .resultPara h1 {
+    font-weight: 800;
+  }
+  
+  .text-black {
+    color: black; 
+  }
+  
 
-    h1 {
-        font-size: 24px;
-    }
 
-    .text-black {
-        font-size: 16px;
-    }
-}
 
-@media (max-width: 480px) {
-    .containers {
-        padding: 10px;
-    }
 
-    h1 {
-        font-size: 20px;
-    }
-
-    .text-black {
-        font-size: 14px;
-    }
-}
-
+  
