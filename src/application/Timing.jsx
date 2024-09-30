@@ -1,5 +1,4 @@
 import React from "react";
-// import backgroundVedio from "../../src/assets/img/207866_small.mp4"
 import timeImage from "../../src/assets/img/time-3216244_1280.jpg";
 import timeImage1 from "../../src/assets/img/quitting-time-7259410_1280.png";
 import "../css/timing.css";
@@ -8,14 +7,6 @@ function Timing() {
   return (
 
  <div>
-
-    {/* <div className="vedio">
-      <vedio>
-        <source  src={backgroundVedio} type="vedio/mp4" />
-      </vedio>
-    </div> */}
-
-
 
    <div className="imgTime">
         <img src={timeImage} alt="" />

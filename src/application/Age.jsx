@@ -14,7 +14,7 @@ function Age() {
       </div>
 
       <div className="eligibility">
-      <div className="eligibilityImg">
+      <div className="eligibilityImg1">
           {/* <img src={eligibilityImage1} alt="" /> */}
         </div>
       <h1>ELIGIBILITY</h1>

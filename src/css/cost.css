@@ -1,0 +1,78 @@
+.imgCost {
+    position: relative; 
+    width: 100vw; 
+    height: 100vh; 
+    overflow: hidden; 
+  }
+  
+  .imgCost img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }
+  
+  .cost-text {
+    position: absolute; 
+    top: 300px; 
+    right: 20px; 
+    color: black; 
+    font-size: 4rem; 
+    font-weight: bold; 
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+    padding: 20px;
+    margin-right: 40px;
+    border-radius: 5px; 
+  }
+
+
+
+  
+  .cost {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 20px; 
+  }
+  
+  .costImg {
+    flex: 1; 
+    max-width: 40%; 
+  }
+  
+  .costImg img {
+    width: 100%; 
+    height: auto; 
+  }
+  
+  .cost {
+    padding-top: 20px;
+    flex: 1; 
+    margin-left: 20px; 
+    margin-right: 40px;
+  }
+  
+  .costPara h1 {
+    font-weight: 800;
+  }
+  .costhed h1 {
+    font-weight: 800;
+  }
+  .costhed h2 {
+    font-weight: 800;
+  }
+  .costhed p {
+    font-weight: 800;
+  }
+  
+  .costhead{
+    font-weight: 800;
+  }
+  .text-black {
+    color: black; 
+  }
+  
+
+
+
+
+  
