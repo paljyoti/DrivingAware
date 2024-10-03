@@ -1,5 +1,5 @@
 import React from "react";
-import assessmentImage from "../../src/assets/img/driver-8563415_1280.jpg";
+import assessmentImage from "../../src/assets/img/assessment-analysics-audit-control-review-concept.jpg";
 import assessmentImage1 from "../../src/assets/img/checklist-154274_1280.png";
 import "../css/assessment.css";
 
@@ -9,7 +9,7 @@ function Assessment() {
       <div className="imgassessment">
         <img src={assessmentImage} alt="" />
         <div className="assessment-text">
-          <p>Assessment</p>
+          {/* <p>Assessment</p> */}
         </div>
       </div>
 

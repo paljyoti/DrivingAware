@@ -72,7 +72,7 @@ const UsecaseDetails = () => {
                   {case_left ? (
                     // ---------- Right side image
                     <div 
-                    //  style={{ background: "#ffe06f" }}
+                    // style={{ background: "#ffe06f" }}
                       style={{background:"pink", marginRight:"50px"}}
                       key={id}
                       className="col-lg-10 offset-lg-1 col-xs-12"
@@ -80,7 +80,7 @@ const UsecaseDetails = () => {
                       data-aos-delay="100"
                       data-aos-offset="0"
                       data-aos-duration="1000"
-                    >
+                    >      
                       <div className="ss_case_two">
                         <div className="ss_case_left">
                           <h2>{heading}</h2>
@@ -111,6 +111,9 @@ const UsecaseDetails = () => {
               );
             })}
           </div>
+
+        
+            
         </div>
       </section>
       {/* ---------- End use case details */}

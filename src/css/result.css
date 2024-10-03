@@ -58,14 +58,14 @@
 
 
 
-.resultTime {
+.imgResult {
   position: relative;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
 }
 
-.resultTime img {
+.imgResult img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -154,6 +154,7 @@
   }
 }
 
+
 @media (max-width: 480px) {
   .result-text {
     font-size: 2rem;
@@ -164,18 +165,20 @@
     flex-direction: column;
     padding: 5px;
   }
-
+   
   .resultImg {
     max-width: 100%;
     margin-bottom: 10px;
   }
-
+  
   .resultPara {
     margin-left: 0;
     margin-right: 0;
   }
-
+  
   .resultPara h1 {
     font-size: 1.5rem;
   }
 }
+
+
