@@ -46,7 +46,8 @@ const Footer = () => {
                   <ul>
                     {links.map((link, index) => (
                       <li key={index}>
-                        <Link to={"/about"}>{link}</Link>
+                        <Link to={"/about"}  >{link}</Link>
+                                       
                       </li>
                     ))}
                   </ul>
@@ -82,7 +83,7 @@ const Footer = () => {
         <div className="row fc">
           <div className="col-lg-6 col-sm-6 col-xs-12">
             <div className="footer_copyright">
-              <p className="" style={{color:"#ffe06f"}}  >&copy; 2023. All Rights Reserved.</p>
+              <p className="" style={{color:"#ffe06f"}}  >&copy; 2024. All Rights Reserved.</p>
             </div>
           </div>
           <div className="col-lg-6 col-sm-6 col-xs-12">

@@ -1,6 +1,7 @@
 import React from "react";
 // import eligibilityImage from "../../src/assets/img/pexels-ingo-13781.jpg";
 import "../css/age.css";
+import eligibilityImage1   from "../../src/assets/img/17.png";
 
 function Age() {
   return (
@@ -15,8 +16,11 @@ function Age() {
 
       <div className="eligibility">
       <div className="eligibilityImg1">
-          {/* <img src={eligibilityImage1} alt="" /> */}
+          <img src={eligibilityImage1} alt="" />
         </div>
+
+       <div className="eligibilityPara">
+
       <h1>ELIGIBILITY</h1>
         <p className="text-black">
           Age: At least 17 years old and possess a valid driving license. The
@@ -26,7 +30,7 @@ function Age() {
           or those who haven’t attended a course in the last three years.Not
           available for serious speeding offenses.
         </p>
-        <p className="text-black">
+         <p className="text-black">
           To be eligible for the theory test in the UK, candidates must be at
           least 17 years old for cars and motorcycles (16 for mopeds) and hold a
           valid provisional driving license. They must have lived in England,
@@ -35,7 +39,8 @@ function Age() {
           online through the official DVSA website is also required. Meeting
           these criteria allows individuals to advance toward obtaining their
           driving license.
-        </p>
+        </p> 
+        </div>
       </div>
     </div>
   );

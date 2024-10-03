@@ -71,8 +71,9 @@ const UsecaseDetails = () => {
                 <>
                   {case_left ? (
                     // ---------- Right side image
-                    <div
-                      style={{ background: "#ffe06f" }}
+                    <div 
+                    //  style={{ background: "#ffe06f" }}
+                      style={{background:"pink", marginRight:"50px"}}
                       key={id}
                       className="col-lg-10 offset-lg-1 col-xs-12"
                       data-aos="fade-up"
@@ -101,7 +102,6 @@ const UsecaseDetails = () => {
                     >
                       <div className="ss_case_one">
                         <img src={image} alt="" />
-
                         <h2>{heading}</h2>
                         <p>{content}</p>
                       </div>

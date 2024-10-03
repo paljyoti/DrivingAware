@@ -1,10 +1,7 @@
 import React from "react";
-// import durationImage from "../../"
-// import durationImage from "../../src/assets/img/driving-2732934_1280.jpg";
-import durationImage from "../../src/assets/img/businessman-holding-hour-glass-signifies-importance-being-time.jpg";
-// import   durationImage from  "../../src/assets/img/same-hourglass-now-more-prominent-with-its-shadow-marks-fleeting-moments.jpg"
+import durationImage from "../../src/assets/img/countdown-begins-antique-timer-sand-flowing-endlessly-generated-by-ai.jpg";
 import "../css/duration.css";
-import paraImage from "../../src/assets/img/19199477.jpg";
+import paraImage from "../../src/assets/img/049bb2fd-7e71-4400-8025-14e70bb51517.jpg";
 
 function Duration() {
   return (

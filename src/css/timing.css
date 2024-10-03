@@ -1,66 +1,169 @@
+/* .imgTime {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.imgTime img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.timing-text {
+  position: absolute;
+  top: 300px;
+  right: 20px;
+  color: black;
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 20px;
+  margin-right: 40px;
+  border-radius: 5px;
+}
+
+.timing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.timeImg {
+  flex: 1;
+  max-width: 40%;
+}
+
+.timeImg img {
+  width: 100%;
+  height: auto;
+}
+
+.TimingPara {
+  padding-top: 20px;
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.TimingPara h1 {
+  font-weight: 800;
+}
+
+.text-black {
+  color: black;
+} */
+
+
+
+
+
 .imgTime {
-    position: relative; 
-    width: 100vw; 
-    height: 100vh; 
-    overflow: hidden; 
-  }
-  
-  .imgTime img {
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover; 
-  }
-  
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.imgTime img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.timing-text {
+  position: absolute;
+  top: 20%; /* Adjusted for better responsiveness */
+  right: 5%; /* Adjusted for better responsiveness */
+  color: black;
+  font-size: 4rem; /* Default size for larger screens */
+  font-weight: bold;
+  padding: 20px;
+  margin-right: 40px;
+  border-radius: 5px;
+}
+
+.timing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap; /* Allow items to wrap in smaller screens */
+}
+
+.timeImg {
+  flex: 1;
+  max-width: 40%; /* Adjust max-width for larger screens */
+}
+
+.timeImg img {
+  width: 100%;
+  height: auto;
+}
+
+.TimingPara {
+  padding-top: 20px;
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.TimingPara h1 {
+  font-weight: 800;
+}
+
+.text-black {
+  color: black;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) { /* Tablet and smaller laptops */
   .timing-text {
-    position: absolute; 
-    top: 300px; 
-    right: 20px; 
-    color: black; 
-    font-size: 4rem; 
-    font-weight: bold; 
-    /* background-color: rgba(0, 0, 0, 0.5);  */
-    padding: 20px;
-    margin-right: 40px;
-    border-radius: 5px; 
+    font-size: 3rem; /* Slightly smaller font for medium screens */
+    top: 15%; /* Adjust position */
+    right: 10%; /* Adjust position */
   }
 
-
-
-  
-  .timing {
-    display: flex;
-    align-items: center; 
-    justify-content: space-between;
-    padding: 20px; 
-  }
-  
   .timeImg {
-    flex: 1; 
-    max-width: 40%; 
-  }
-  
-  .timeImg img {
-    width: 100%; 
-    height: auto; 
+    max-width: 50%; /* More room for images */
   }
   
   .TimingPara {
-    padding-top: 20px;
-    flex: 1; 
-    margin-left: 20px; 
-    margin-right: 40px;
+    margin-left: 10px;
+    margin-right: 20px;
   }
-  
-  .TimingPara h1 {
-    font-weight: 800;
+}
+
+@media (max-width: 768px) { /* Mobile devices */
+  .timing-text {
+    font-size: 2.5rem; /* Smaller font for mobile */
+    top: 10%; /* Adjust position */
+    right: 5%; /* Adjust position */
   }
-  
-  .text-black {
-    color: black; 
+
+  .timing {
+    flex-direction: column; /* Stack items vertically */
   }
-  
 
+  .timeImg {
+    max-width: 100%; /* Full width for images */
+  }
 
+  .TimingPara {
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 10px; /* Less padding on mobile */
+  }
+}
 
+@media (max-width: 480px) { /* Smaller mobile devices */
+  .timing-text {
+    font-size: 2rem; /* Even smaller font for small screens */
+    top: 5%; /* Adjust position */
+  }
 
-  
+  .timing {
+    padding: 10px; /* Less padding */
+  }
+}

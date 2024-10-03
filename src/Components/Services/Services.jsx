@@ -7,7 +7,7 @@ import ServiceCard from "../Shared/ServiceCard/ServiceCard";
 import { TypeAnimation } from "react-type-animation";
 
 const Services = () => {
-  return (
+  return ( 
     <section id="service" className="best-service section-padding" style={{backgroundColor:"white"}}>
       <div className="container">
         <Title
@@ -30,7 +30,7 @@ const Services = () => {
               <Link href="/usecase">View All Use Case</Link>
             </div>
           </div>  */}  
-
+          
         </div>
       </div>
     </section>

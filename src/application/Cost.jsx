@@ -1,5 +1,6 @@
 import React from "react";
-import costImg1 from "../../src/assets/img/pexels-karolina-grabowska-4968653.jpg"
+import costImage from "../../src/assets/img/hourglass-with-gold-coins-wallpaper.jpg"
+import costImg1 from "../../src/assets/img/pound-2719009_1280.png"
 import "../css/cost.css";
 
 function Cost() {
@@ -7,7 +8,7 @@ function Cost() {
     <div> 
    
    <div className="imgCost">
-        {/* <img src={costImage} alt="" /> */}
+        <img src={costImage} alt="" />
         <div className="cost-text">
           <p>Cost</p>
         </div>
@@ -83,6 +84,8 @@ function Cost() {
         </h5>
       </div>
     </div>
+
+
     </div>
     </div>
   );

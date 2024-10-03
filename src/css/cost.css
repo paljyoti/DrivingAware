@@ -14,8 +14,8 @@
   .cost-text {
     position: absolute; 
     top: 300px; 
-    right: 20px; 
-    color: black; 
+    left: 20px; 
+    color: white; 
     font-size: 4rem; 
     font-weight: bold; 
     /* background-color: rgba(0, 0, 0, 0.5);  */
@@ -35,7 +35,7 @@
   }
   
   .costImg {
-    flex: 1; 
+    /* flex: 1;  */
     max-width: 40%; 
   }
   
@@ -45,6 +45,7 @@
   }
   
   .cost {
+
     padding-top: 20px;
     flex: 1; 
     margin-left: 20px; 
@@ -55,12 +56,15 @@
     font-weight: 800;
   }
   .costhed h1 {
+    
     font-weight: 800;
   }
   .costhed h2 {
+   
     font-weight: 800;
   }
   .costhed p {
+   
     font-weight: 800;
   }
   
