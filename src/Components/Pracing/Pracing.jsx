@@ -185,7 +185,7 @@ const Pracing = () => {
                       })}
                     </ul>
                     <div className="pricing-price"></div>
-                    <a href="#" className="price_btn">
+                    <a href="/contact" className="price_btn">
                       {isStart}
                     </a>
                   </div>

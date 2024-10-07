@@ -1,5 +1,5 @@
 import React from "react";
-// import eligibilityImage from "../../src/assets/img/pexels-ingo-13781.jpg";
+import eligibilityImage from "../../src/assets/img/vecteezy_eligible-word-on-yellow-brick-wall_6400089.jpg";
 import "../css/age.css";
 import eligibilityImage1   from "../../src/assets/img/17.png";
 
@@ -8,7 +8,7 @@ function Age() {
     <div>
         
         <div className="eligibilityimg">
-        {/* <img src={eligibilityImage} alt="" /> */}
+        <img src={eligibilityImage} alt="" />
         <div className="eligibility-text">
           <p>ELIGIBILITY</p>
         </div>
