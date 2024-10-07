@@ -82,10 +82,10 @@ const UsecaseDetails = () => {
                       data-aos-delay="100"
                       data-aos-offset="0"
                       data-aos-duration="1000"
-                    >      
+                    >           
                       <div className="ss_case_two">
                         <div className="ss_case_left">
-                          <h2>{heading}</h2>
+                          <h2 className="text-black">{heading}</h2>
                           <p style={{color:"black"}}>{content}</p>
                         </div>
                         <img src={image} alt="" />
@@ -104,7 +104,7 @@ const UsecaseDetails = () => {
                     >
                      <div className="ss_case_one">
                         <img src={image} alt="" />
-                        <h2>{heading}</h2>
+                        <h2 className="text-black">{heading}</h2>
                         <p style={{color:"black"}}>{content}</p>                      
                       </div>
                     </div>

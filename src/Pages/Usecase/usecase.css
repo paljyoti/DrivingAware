@@ -8,6 +8,7 @@
     color: black;
   }
   .ss_case_one img {
+    margin-top: 40px;
     float: left;
     margin-right: 30px;
     width: 300px;
@@ -32,9 +33,9 @@
     overflow: hidden;
   }
   .ss_case_two img {
-   
+   margin-top: 30px;
     width: 300px;
-    /* height: 500px; */
+    /* height: 300px; */
   }
   .ss_case_two h2 {
     margin-top: 50px;
@@ -44,7 +45,10 @@
     overflow: hidden;
   }
   .ss_case_two p {
+  
     overflow: hidden;
+    width: 560px;
+    text-align: justify;
   }
   .ss_case_left {
     float: left;

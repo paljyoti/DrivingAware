@@ -1,7 +1,7 @@
 import React from "react";
 import "./usecase.css";
 import PageHeader from "../../Components/Shared/PageHeader/PageHeader";
-
+import usecase from "../../assets/img/delivery-man-signing-paper.jpg"
 import use7 from "../../assets/img/image_2024_09_26T07_50_27_786Z.png";
 import usecase2 from "../../assets/img/softwaretester_text_2.jpg";
 import usecase3 from "../../assets/img/17.png";
@@ -14,7 +14,7 @@ const list = [
   {
     id: 1,
     heading: "WHAT IS THEORY TEST?",
-    // image: usecase,
+    image: usecase,
     content: `The theory test in the UK is a mandatory exam for learner drivers  car and motorcyclists that assesses their knowledge of road rules, safety, and driving hazards. It consists of two parts: multiple-choice questions based on the Highway Code and a hazard perception test, where candidates watch video clips and identify potential hazards. Passing the theory test is required before taking the practical driving test.
 The UK driving theory test is mandatory for obtaining a driving license. Required for both car and motorcycle licenses.Two parts: Multiple-choice questions and Hazard perception test.Cost: £23 for the theory test.Can book up to 6 months in advance.`,
   },
@@ -113,9 +113,9 @@ const UsecaseDetails = () => {
                       <div className="ss_case_two">
                         <div className="ss_case_left">
                           <h2>{heading}</h2>
-                          <p>{content}</p>
+                          <p className="text-black">{content}</p>
                         </div>
-                        <img src={image} alt="" />
+                        <img src={image} alt=""/>
                       </div>
                     </div>
                   ) : (
@@ -128,11 +128,11 @@ const UsecaseDetails = () => {
                       data-aos-delay="100"
                       data-aos-offset="0"
                       data-aos-duration="1000"
-                    >
+                    >  
                       <div className="ss_case_one">
                         <img src={image} alt="" />
                         <h2>{heading}</h2>
-                        <p>{content}</p>
+                        <p className="text-black">{content}</p>
                       </div>
                     </div>
                   )}
